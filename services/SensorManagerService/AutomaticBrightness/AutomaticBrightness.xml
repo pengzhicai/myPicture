@@ -1,4 +1,4 @@
-<mxfile modified="2019-11-08T06:33:21.643Z" host="www.draw.io" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36" etag="-hw2JpDCE9g9A7BZLY0j" version="12.2.2" type="github" pages="9">
+<mxfile modified="2019-11-08T07:01:04.437Z" host="www.draw.io" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36" etag="1NBIdE62FsPKGrMuDJTo" version="12.2.2" type="github" pages="9">
   <diagram name="framework" id="9361dd3d-8414-5efd-6122-117bd74ce7a7">
     <mxGraphModel dx="176" dy="1788" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1.5" pageWidth="826" pageHeight="1169" background="#ffffff" math="0" shadow="0">
       <root>
@@ -1919,6 +1919,18 @@
       <root>
         <mxCell id="Fd-rBDubx2H-appdCB_T-0"/>
         <mxCell id="Fd-rBDubx2H-appdCB_T-1" parent="Fd-rBDubx2H-appdCB_T-0"/>
+        <mxCell id="T8NvaS6WOosxHA3Dpb0h-0" value="Classname" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="Fd-rBDubx2H-appdCB_T-1">
+          <mxGeometry x="220" y="70" width="160" height="86" as="geometry"/>
+        </mxCell>
+        <mxCell id="T8NvaS6WOosxHA3Dpb0h-1" value="+ field: type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="T8NvaS6WOosxHA3Dpb0h-0">
+          <mxGeometry y="26" width="160" height="26" as="geometry"/>
+        </mxCell>
+        <mxCell id="T8NvaS6WOosxHA3Dpb0h-2" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="T8NvaS6WOosxHA3Dpb0h-0">
+          <mxGeometry y="52" width="160" height="8" as="geometry"/>
+        </mxCell>
+        <mxCell id="T8NvaS6WOosxHA3Dpb0h-3" value="+ method(type): type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="T8NvaS6WOosxHA3Dpb0h-0">
+          <mxGeometry y="60" width="160" height="26" as="geometry"/>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
