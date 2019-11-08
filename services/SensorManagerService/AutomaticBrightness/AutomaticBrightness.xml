@@ -1,4 +1,4 @@
-<mxfile modified="2019-11-08T07:32:43.918Z" host="www.draw.io" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36" etag="nvSkQpgyTC-cKQOOmfvw" version="12.2.2" type="github" pages="9">
+<mxfile modified="2019-11-08T07:38:24.635Z" host="www.draw.io" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36" etag="1kUMQWZ1ggC5tyqTqXjD" version="12.2.2" type="github" pages="9">
   <diagram name="framework" id="9361dd3d-8414-5efd-6122-117bd74ce7a7">
     <mxGraphModel dx="783" dy="1963" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1.5" pageWidth="826" pageHeight="1169" background="#ffffff" math="0" shadow="0">
       <root>
@@ -2008,7 +2008,7 @@
         <mxCell id="Fw74VFVjBja6KI2S2VBc-25" value="SensorManager.cpp" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="Fd-rBDubx2H-appdCB_T-1">
           <mxGeometry x="940" y="-50" width="280" height="86" as="geometry"/>
         </mxCell>
-        <mxCell id="Fw74VFVjBja6KI2S2VBc-26" value="+ field: type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="Fw74VFVjBja6KI2S2VBc-25">
+        <mxCell id="Fw74VFVjBja6KI2S2VBc-26" value="mSensorServer" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="Fw74VFVjBja6KI2S2VBc-25">
           <mxGeometry y="26" width="280" height="26" as="geometry"/>
         </mxCell>
         <mxCell id="Fw74VFVjBja6KI2S2VBc-27" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="Fw74VFVjBja6KI2S2VBc-25">
@@ -2070,6 +2070,18 @@
             <mxPoint x="2080" y="210" as="sourcePoint"/>
             <mxPoint x="2198.88" y="185.99399999999991" as="targetPoint"/>
           </mxGeometry>
+        </mxCell>
+        <mxCell id="Fw74VFVjBja6KI2S2VBc-44" value="SensorEventQueue.cpp" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="Fd-rBDubx2H-appdCB_T-1">
+          <mxGeometry x="960" y="230" width="280" height="138" as="geometry"/>
+        </mxCell>
+        <mxCell id="Fw74VFVjBja6KI2S2VBc-45" value="mSensorEventConnection&#xa;mSensorChannel" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="Fw74VFVjBja6KI2S2VBc-44">
+          <mxGeometry y="26" width="280" height="44" as="geometry"/>
+        </mxCell>
+        <mxCell id="Fw74VFVjBja6KI2S2VBc-46" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="Fw74VFVjBja6KI2S2VBc-44">
+          <mxGeometry y="70" width="280" height="8" as="geometry"/>
+        </mxCell>
+        <mxCell id="Fw74VFVjBja6KI2S2VBc-47" value="createEventQueue" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="Fw74VFVjBja6KI2S2VBc-44">
+          <mxGeometry y="78" width="280" height="60" as="geometry"/>
         </mxCell>
       </root>
     </mxGraphModel>
