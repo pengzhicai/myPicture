@@ -1,4 +1,4 @@
-<mxfile modified="2019-11-08T10:15:03.738Z" host="www.draw.io" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36" etag="K-xzprFNBIC56e3uqbEI" version="12.2.2" type="github" pages="9">
+<mxfile modified="2019-11-08T10:15:31.907Z" host="www.draw.io" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36" etag="n5h2r8DNO5RInoR5hArC" version="12.2.2" type="github" pages="9">
   <diagram name="framework" id="9361dd3d-8414-5efd-6122-117bd74ce7a7">
     <mxGraphModel dx="783" dy="1963" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1.5" pageWidth="826" pageHeight="1169" background="#ffffff" math="0" shadow="0">
       <root>
@@ -1920,7 +1920,7 @@
         <mxCell id="Fd-rBDubx2H-appdCB_T-0"/>
         <mxCell id="Fd-rBDubx2H-appdCB_T-1" parent="Fd-rBDubx2H-appdCB_T-0"/>
         <mxCell id="T8NvaS6WOosxHA3Dpb0h-0" value="SystemSensorManager.java" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="Fd-rBDubx2H-appdCB_T-1" vertex="1">
-          <mxGeometry x="-40" y="30" width="190" height="180" as="geometry"/>
+          <mxGeometry x="-20" y="657" width="190" height="180" as="geometry"/>
         </mxCell>
         <mxCell id="T8NvaS6WOosxHA3Dpb0h-1" value="+ field: type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="T8NvaS6WOosxHA3Dpb0h-0" vertex="1">
           <mxGeometry y="26" width="190" height="26" as="geometry"/>
