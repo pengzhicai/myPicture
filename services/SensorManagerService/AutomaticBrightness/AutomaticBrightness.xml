@@ -1,4 +1,4 @@
-<mxfile modified="2019-11-08T08:28:33.038Z" host="www.draw.io" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36" etag="_OPXeqA5r7xiXMgTxAT2" version="12.2.2" type="github" pages="9">
+<mxfile modified="2019-11-08T08:50:17.385Z" host="www.draw.io" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36" etag="OYLwNmR2BelARAN-IPYZ" version="12.2.2" type="github" pages="9">
   <diagram name="framework" id="9361dd3d-8414-5efd-6122-117bd74ce7a7">
     <mxGraphModel dx="783" dy="1963" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1.5" pageWidth="826" pageHeight="1169" background="#ffffff" math="0" shadow="0">
       <root>
@@ -619,7 +619,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="3BAi8780NlvlzPQjiva5" name="frameworkReadData">
-    <mxGraphModel dx="1826" dy="1688" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2433" dy="1863" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="FH2YL7BHB_87mf5TMn9s-0"/>
         <mxCell id="FH2YL7BHB_87mf5TMn9s-1" parent="FH2YL7BHB_87mf5TMn9s-0"/>
@@ -1004,7 +1004,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="HbPeAZRye4nYh1uaOsBa" name="SensorEventQueue">
-    <mxGraphModel dx="3327" dy="3098" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="3283" dy="2963" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="V-7t96RgE9TGtlcVg6ZT-0"/>
         <mxCell id="V-7t96RgE9TGtlcVg6ZT-1" parent="V-7t96RgE9TGtlcVg6ZT-0"/>
@@ -2020,7 +2020,7 @@
         <mxCell id="Fw74VFVjBja6KI2S2VBc-29" value="SensorService.cpp" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="Fd-rBDubx2H-appdCB_T-1">
           <mxGeometry x="1390" y="-104" width="280" height="134" as="geometry"/>
         </mxCell>
-        <mxCell id="Fw74VFVjBja6KI2S2VBc-30" value="mSensors&#xa;mSensorsmSensors&#xa;mSocketBufferSize&#xa;mActiveConnections" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="Fw74VFVjBja6KI2S2VBc-29">
+        <mxCell id="Fw74VFVjBja6KI2S2VBc-30" value="mSensors&#xa;mSensorsmSensors&#xa;mSocketBufferSize&#xa;mActiveConnections&#xa;mLooper" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="Fw74VFVjBja6KI2S2VBc-29">
           <mxGeometry y="26" width="280" height="74" as="geometry"/>
         </mxCell>
         <mxCell id="Fw74VFVjBja6KI2S2VBc-31" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="Fw74VFVjBja6KI2S2VBc-29">
@@ -2116,6 +2116,15 @@
             <mxPoint x="400" y="430" as="sourcePoint"/>
             <mxPoint x="490" y="500" as="targetPoint"/>
           </mxGeometry>
+        </mxCell>
+        <mxCell id="Fw74VFVjBja6KI2S2VBc-56" value="mLooper-&gt;wake();" style="text;html=1;" vertex="1" parent="Fd-rBDubx2H-appdCB_T-1">
+          <mxGeometry x="1470" y="150" width="120" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="WMI42capXuyPIDiOhm8W-0" value="post一个消息到先前注册的EventQueue中，并通过BiTube将数据发送过去" style="text;html=1;" vertex="1" parent="Fd-rBDubx2H-appdCB_T-1">
+          <mxGeometry x="1330" y="248" width="420" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="HIKgQn3wphQ97zNrARcz-0" value="setWakeLockAcquiredLocked&lt;br&gt;&lt;div&gt;&lt;span&gt;mLooper&lt;/span&gt;-&amp;gt;&lt;span&gt;wake&lt;/span&gt;();&lt;/div&gt;&lt;div&gt;&lt;span&gt;Wake()函数向管道写数据，这样管道的读端就会因为有数据可读而从等待状态中醒来。&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;当管道有数据时程序将会走过epoll_wait，继续往下走到&lt;/div&gt;&lt;div&gt;int callbackResult = response.request.callback-&amp;gt;handleEvent(fd, events, data);&lt;br&gt;&lt;/div&gt;" style="text;html=1;" vertex="1" parent="Fd-rBDubx2H-appdCB_T-1">
+          <mxGeometry x="1330" y="295" width="517" height="101" as="geometry"/>
         </mxCell>
       </root>
     </mxGraphModel>
