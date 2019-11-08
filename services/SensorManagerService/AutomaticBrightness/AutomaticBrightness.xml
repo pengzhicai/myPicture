@@ -1,4 +1,4 @@
-<mxfile modified="2019-11-08T07:50:36.873Z" host="www.draw.io" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36" etag="aQa1ZtsrUOtlJ8LRbmhD" version="12.2.2" type="github" pages="9">
+<mxfile modified="2019-11-08T07:52:32.369Z" host="www.draw.io" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36" etag="0PUmRd90756TlesduGp0" version="12.2.2" type="github" pages="9">
   <diagram name="framework" id="9361dd3d-8414-5efd-6122-117bd74ce7a7">
     <mxGraphModel dx="783" dy="1963" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1.5" pageWidth="826" pageHeight="1169" background="#ffffff" math="0" shadow="0">
       <root>
@@ -1984,7 +1984,7 @@
         <mxCell id="Fw74VFVjBja6KI2S2VBc-19" value="Receiver" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="Fd-rBDubx2H-appdCB_T-1">
           <mxGeometry x="600" y="160" width="330" height="258" as="geometry"/>
         </mxCell>
-        <mxCell id="Fw74VFVjBja6KI2S2VBc-20" value="mSensorQueue&#xa;mMessageQueue&#xa;mReceiverWeakGlobal  接收消息的SensorEventQueue对象&#xa;mFloatScratch&#xa;mIntScratch" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="Fw74VFVjBja6KI2S2VBc-19">
+        <mxCell id="Fw74VFVjBja6KI2S2VBc-20" value="mSensorQueue   //SensorEventQueue&#xa;mMessageQueue //当前looper的messageQueue&#xa;mReceiverWeakGlobal  //接收消息的SensorEventQueue对象&#xa;mFloatScratch  //sensor数据&#xa;mIntScratch  //sensor数据" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="Fw74VFVjBja6KI2S2VBc-19">
           <mxGeometry y="26" width="330" height="84" as="geometry"/>
         </mxCell>
         <mxCell id="Fw74VFVjBja6KI2S2VBc-21" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="Fw74VFVjBja6KI2S2VBc-19">
