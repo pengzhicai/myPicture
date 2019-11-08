@@ -1,4 +1,4 @@
-<mxfile modified="2019-11-08T10:13:54.314Z" host="www.draw.io" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36" etag="fF2AKEIle0YDfYbTPjQY" version="12.2.2" type="github" pages="9">
+<mxfile modified="2019-11-08T10:15:03.738Z" host="www.draw.io" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36" etag="K-xzprFNBIC56e3uqbEI" version="12.2.2" type="github" pages="9">
   <diagram name="framework" id="9361dd3d-8414-5efd-6122-117bd74ce7a7">
     <mxGraphModel dx="783" dy="1963" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1.5" pageWidth="826" pageHeight="1169" background="#ffffff" math="0" shadow="0">
       <root>
@@ -2126,12 +2126,13 @@
         <mxCell id="HIKgQn3wphQ97zNrARcz-0" value="setWakeLockAcquiredLocked&lt;br&gt;&lt;div&gt;&lt;span&gt;mLooper&lt;/span&gt;-&amp;gt;&lt;span&gt;wake&lt;/span&gt;();&lt;/div&gt;&lt;div&gt;&lt;span&gt;Wake()函数向管道写数据，这样管道的读端就会因为有数据可读而从等待状态中醒来。&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;当管道有数据时程序将会走过epoll_wait，继续往下走到&lt;/div&gt;&lt;div&gt;int callbackResult = response.request.callback-&amp;gt;handleEvent(fd, events, data);&lt;br&gt;&lt;/div&gt;" style="text;html=1;" vertex="1" parent="Fd-rBDubx2H-appdCB_T-1">
           <mxGeometry x="1680" y="29.5" width="517" height="101" as="geometry"/>
         </mxCell>
-        <mxCell id="HIKgQn3wphQ97zNrARcz-4" value="" style="edgeStyle=elbowEdgeStyle;elbow=horizontal;endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.938;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="Fd-rBDubx2H-appdCB_T-1" source="Fw74VFVjBja6KI2S2VBc-35" target="Fw74VFVjBja6KI2S2VBc-3">
+        <mxCell id="HIKgQn3wphQ97zNrARcz-5" value="" style="edgeStyle=segmentEdgeStyle;endArrow=classic;html=1;exitX=0.036;exitY=0.538;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.994;entryY=0.413;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="Fd-rBDubx2H-appdCB_T-1" source="Fw74VFVjBja6KI2S2VBc-35" target="Fw74VFVjBja6KI2S2VBc-3">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="2070" as="sourcePoint"/>
-            <mxPoint x="2120" y="-50" as="targetPoint"/>
+            <mxPoint x="790" y="780" as="sourcePoint"/>
+            <mxPoint x="840" y="730" as="targetPoint"/>
             <Array as="points">
-              <mxPoint x="2240" y="330"/>
+              <mxPoint x="1090" y="470"/>
+              <mxPoint x="1090" y="833"/>
             </Array>
           </mxGeometry>
         </mxCell>
