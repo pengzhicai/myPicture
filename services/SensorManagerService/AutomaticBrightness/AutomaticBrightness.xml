@@ -1,4 +1,4 @@
-<mxfile modified="2019-11-08T10:10:34.017Z" host="www.draw.io" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36" etag="ARkZ8NY-qip_Wts-C8DF" version="12.2.2" type="github" pages="9">
+<mxfile modified="2019-11-08T10:13:54.314Z" host="www.draw.io" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36" etag="fF2AKEIle0YDfYbTPjQY" version="12.2.2" type="github" pages="9">
   <diagram name="framework" id="9361dd3d-8414-5efd-6122-117bd74ce7a7">
     <mxGraphModel dx="783" dy="1963" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1.5" pageWidth="826" pageHeight="1169" background="#ffffff" math="0" shadow="0">
       <root>
@@ -1982,7 +1982,7 @@
           <mxGeometry y="60" width="280" height="26" as="geometry"/>
         </mxCell>
         <mxCell id="Fw74VFVjBja6KI2S2VBc-19" value="Receiver" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="Fd-rBDubx2H-appdCB_T-1">
-          <mxGeometry x="580" y="160" width="350" height="258" as="geometry"/>
+          <mxGeometry x="580" y="81" width="350" height="258" as="geometry"/>
         </mxCell>
         <mxCell id="Fw74VFVjBja6KI2S2VBc-20" value="mSensorQueue   //SensorEventQueue&#xa;mMessageQueue //当前looper的messageQueue&#xa;mReceiverWeakGlobal  //接收消息的SensorEventQueue对象&#xa;mFloatScratch  //sensor数据&#xa;mIntScratch  //sensor数据" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="Fw74VFVjBja6KI2S2VBc-19">
           <mxGeometry y="26" width="350" height="84" as="geometry"/>
@@ -2036,7 +2036,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="Fw74VFVjBja6KI2S2VBc-34" value="SensorEventConnection.cpp" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="Fd-rBDubx2H-appdCB_T-1">
-          <mxGeometry x="1720" y="-86" width="280" height="86" as="geometry">
+          <mxGeometry x="1380" y="430" width="280" height="86" as="geometry">
             <mxRectangle x="1720" y="-86" width="180" height="26" as="alternateBounds"/>
           </mxGeometry>
         </mxCell>
@@ -2049,14 +2049,14 @@
         <mxCell id="Fw74VFVjBja6KI2S2VBc-37" value="SensorEventConnection" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="Fw74VFVjBja6KI2S2VBc-34">
           <mxGeometry y="60" width="280" height="26" as="geometry"/>
         </mxCell>
-        <mxCell id="Fw74VFVjBja6KI2S2VBc-38" value="Use" style="endArrow=open;endSize=12;dashed=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=-0.004;entryY=0.769;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="Fd-rBDubx2H-appdCB_T-1" source="Fw74VFVjBja6KI2S2VBc-30" target="Fw74VFVjBja6KI2S2VBc-35">
+        <mxCell id="Fw74VFVjBja6KI2S2VBc-38" value="Use" style="endArrow=open;endSize=12;dashed=1;html=1;exitX=0.464;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitPerimeter=0;" edge="1" parent="Fd-rBDubx2H-appdCB_T-1" source="Fw74VFVjBja6KI2S2VBc-32" target="Fw74VFVjBja6KI2S2VBc-34">
           <mxGeometry width="160" relative="1" as="geometry">
             <mxPoint x="1230" y="-1" as="sourcePoint"/>
             <mxPoint x="1300" y="166" as="targetPoint"/>
           </mxGeometry>
         </mxCell>
         <mxCell id="Fw74VFVjBja6KI2S2VBc-39" value="BitTube" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="Fd-rBDubx2H-appdCB_T-1">
-          <mxGeometry x="1710" y="130" width="280" height="86" as="geometry">
+          <mxGeometry x="1370" y="614" width="280" height="86" as="geometry">
             <mxRectangle x="1710" y="130" width="70" height="26" as="alternateBounds"/>
           </mxGeometry>
         </mxCell>
@@ -2100,7 +2100,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="Fw74VFVjBja6KI2S2VBc-50" value="Looper.cpp" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="Fd-rBDubx2H-appdCB_T-1">
-          <mxGeometry x="615" y="540" width="280" height="148" as="geometry"/>
+          <mxGeometry x="615" y="410" width="280" height="148" as="geometry"/>
         </mxCell>
         <mxCell id="Fw74VFVjBja6KI2S2VBc-51" value="request&#xa;mResponses&#xa;mWakeEventFd" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="Fw74VFVjBja6KI2S2VBc-50">
           <mxGeometry y="26" width="280" height="54" as="geometry"/>
@@ -2118,20 +2118,20 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="Fw74VFVjBja6KI2S2VBc-56" value="mLooper-&gt;wake();" style="text;html=1;" vertex="1" parent="Fd-rBDubx2H-appdCB_T-1">
-          <mxGeometry x="1470" y="150" width="120" height="30" as="geometry"/>
+          <mxGeometry x="1720" y="-110" width="120" height="30" as="geometry"/>
         </mxCell>
         <mxCell id="WMI42capXuyPIDiOhm8W-0" value="post一个消息到先前注册的EventQueue中，并通过BiTube将数据发送过去" style="text;html=1;" vertex="1" parent="Fd-rBDubx2H-appdCB_T-1">
-          <mxGeometry x="1330" y="248" width="420" height="30" as="geometry"/>
+          <mxGeometry x="1680" y="-25" width="420" height="30" as="geometry"/>
         </mxCell>
         <mxCell id="HIKgQn3wphQ97zNrARcz-0" value="setWakeLockAcquiredLocked&lt;br&gt;&lt;div&gt;&lt;span&gt;mLooper&lt;/span&gt;-&amp;gt;&lt;span&gt;wake&lt;/span&gt;();&lt;/div&gt;&lt;div&gt;&lt;span&gt;Wake()函数向管道写数据，这样管道的读端就会因为有数据可读而从等待状态中醒来。&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;当管道有数据时程序将会走过epoll_wait，继续往下走到&lt;/div&gt;&lt;div&gt;int callbackResult = response.request.callback-&amp;gt;handleEvent(fd, events, data);&lt;br&gt;&lt;/div&gt;" style="text;html=1;" vertex="1" parent="Fd-rBDubx2H-appdCB_T-1">
-          <mxGeometry x="1330" y="295" width="517" height="101" as="geometry"/>
+          <mxGeometry x="1680" y="29.5" width="517" height="101" as="geometry"/>
         </mxCell>
-        <mxCell id="HIKgQn3wphQ97zNrARcz-1" value="" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="Fd-rBDubx2H-appdCB_T-1" source="Fw74VFVjBja6KI2S2VBc-35" target="Fw74VFVjBja6KI2S2VBc-3">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1340" y="550" as="sourcePoint"/>
-            <mxPoint x="1260" y="550" as="targetPoint"/>
+        <mxCell id="HIKgQn3wphQ97zNrARcz-4" value="" style="edgeStyle=elbowEdgeStyle;elbow=horizontal;endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.938;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="Fd-rBDubx2H-appdCB_T-1" source="Fw74VFVjBja6KI2S2VBc-35" target="Fw74VFVjBja6KI2S2VBc-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="2070" as="sourcePoint"/>
+            <mxPoint x="2120" y="-50" as="targetPoint"/>
             <Array as="points">
-              <mxPoint x="2000" y="830"/>
+              <mxPoint x="2240" y="330"/>
             </Array>
           </mxGeometry>
         </mxCell>
