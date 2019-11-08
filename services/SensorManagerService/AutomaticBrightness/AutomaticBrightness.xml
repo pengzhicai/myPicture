@@ -1,4 +1,4 @@
-<mxfile modified="2019-11-08T07:40:56.934Z" host="www.draw.io" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36" etag="ErE6D1NgnTw-wm3DRgCX" version="12.2.2" type="github" pages="9">
+<mxfile modified="2019-11-08T07:50:36.873Z" host="www.draw.io" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36" etag="aQa1ZtsrUOtlJ8LRbmhD" version="12.2.2" type="github" pages="9">
   <diagram name="framework" id="9361dd3d-8414-5efd-6122-117bd74ce7a7">
     <mxGraphModel dx="783" dy="1963" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1.5" pageWidth="826" pageHeight="1169" background="#ffffff" math="0" shadow="0">
       <root>
@@ -1982,16 +1982,16 @@
           <mxGeometry y="60" width="280" height="26" as="geometry"/>
         </mxCell>
         <mxCell id="Fw74VFVjBja6KI2S2VBc-19" value="Receiver" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="Fd-rBDubx2H-appdCB_T-1">
-          <mxGeometry x="620" y="160" width="280" height="258" as="geometry"/>
+          <mxGeometry x="600" y="160" width="330" height="258" as="geometry"/>
         </mxCell>
-        <mxCell id="Fw74VFVjBja6KI2S2VBc-20" value="mSensorQueue&#xa;mMessageQueue&#xa;mReceiverWeakGlobal&#xa;mFloatScratch&#xa;mIntScratch" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="Fw74VFVjBja6KI2S2VBc-19">
-          <mxGeometry y="26" width="280" height="84" as="geometry"/>
+        <mxCell id="Fw74VFVjBja6KI2S2VBc-20" value="mSensorQueue&#xa;mMessageQueue&#xa;mReceiverWeakGlobal  接收消息的SensorEventQueue对象&#xa;mFloatScratch&#xa;mIntScratch" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="Fw74VFVjBja6KI2S2VBc-19">
+          <mxGeometry y="26" width="330" height="84" as="geometry"/>
         </mxCell>
         <mxCell id="Fw74VFVjBja6KI2S2VBc-21" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="Fw74VFVjBja6KI2S2VBc-19">
-          <mxGeometry y="110" width="280" height="8" as="geometry"/>
+          <mxGeometry y="110" width="330" height="8" as="geometry"/>
         </mxCell>
         <mxCell id="Fw74VFVjBja6KI2S2VBc-22" value="onFirstRef&#xa;handleEvent" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="Fw74VFVjBja6KI2S2VBc-19">
-          <mxGeometry y="118" width="280" height="140" as="geometry"/>
+          <mxGeometry y="118" width="330" height="140" as="geometry"/>
         </mxCell>
         <mxCell id="Fw74VFVjBja6KI2S2VBc-23" value="" style="endArrow=open;html=1;endSize=12;startArrow=diamondThin;startSize=14;startFill=0;edgeStyle=orthogonalEdgeStyle;align=left;verticalAlign=bottom;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.464;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="Fd-rBDubx2H-appdCB_T-1" source="Fw74VFVjBja6KI2S2VBc-18" target="Fw74VFVjBja6KI2S2VBc-19">
           <mxGeometry x="-1" y="3" relative="1" as="geometry">
@@ -2036,7 +2036,9 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="Fw74VFVjBja6KI2S2VBc-34" value="SensorEventConnection.cpp" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="Fd-rBDubx2H-appdCB_T-1">
-          <mxGeometry x="1720" y="-86" width="280" height="86" as="geometry"/>
+          <mxGeometry x="1720" y="-86" width="280" height="86" as="geometry">
+            <mxRectangle x="1720" y="-86" width="180" height="26" as="alternateBounds"/>
+          </mxGeometry>
         </mxCell>
         <mxCell id="Fw74VFVjBja6KI2S2VBc-35" value="+ field: type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="Fw74VFVjBja6KI2S2VBc-34">
           <mxGeometry y="26" width="280" height="26" as="geometry"/>
@@ -2054,7 +2056,9 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="Fw74VFVjBja6KI2S2VBc-39" value="BitTube" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="Fd-rBDubx2H-appdCB_T-1">
-          <mxGeometry x="1710" y="130" width="280" height="86" as="geometry"/>
+          <mxGeometry x="1710" y="130" width="280" height="86" as="geometry">
+            <mxRectangle x="1710" y="130" width="70" height="26" as="alternateBounds"/>
+          </mxGeometry>
         </mxCell>
         <mxCell id="Fw74VFVjBja6KI2S2VBc-40" value="mChannel" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="Fw74VFVjBja6KI2S2VBc-39">
           <mxGeometry y="26" width="280" height="26" as="geometry"/>
