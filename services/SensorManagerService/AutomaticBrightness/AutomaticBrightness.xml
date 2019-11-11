@@ -1,4 +1,4 @@
-<mxfile modified="2019-11-11T06:07:27.916Z" host="www.draw.io" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36" etag="EVcRDof1X6QyGs0__iZ3" version="12.2.2" type="github" pages="9">
+<mxfile modified="2019-11-11T06:11:17.057Z" host="www.draw.io" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36" etag="uiNcaF-MCutOkKqSeIkG" version="12.2.2" type="github" pages="9">
   <diagram name="framework" id="9361dd3d-8414-5efd-6122-117bd74ce7a7">
     <mxGraphModel dx="783" dy="1963" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1.5" pageWidth="826" pageHeight="1169" background="#ffffff" math="0" shadow="0">
       <root>
@@ -1915,14 +1915,14 @@
     </mxGraphModel>
   </diagram>
   <diagram id="VaKRsdfePk-byFvH17nB" name="进程间通信">
-    <mxGraphModel dx="1969" dy="1736" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1343" dy="1863" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="Fd-rBDubx2H-appdCB_T-0"/>
         <mxCell id="Fd-rBDubx2H-appdCB_T-1" parent="Fd-rBDubx2H-appdCB_T-0"/>
         <mxCell id="T8NvaS6WOosxHA3Dpb0h-0" value="SystemSensorManager.java" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="Fd-rBDubx2H-appdCB_T-1" vertex="1">
-          <mxGeometry x="-20" y="657" width="190" height="180" as="geometry"/>
+          <mxGeometry x="10" y="335" width="190" height="180" as="geometry"/>
         </mxCell>
-        <mxCell id="T8NvaS6WOosxHA3Dpb0h-1" value="+ field: type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="T8NvaS6WOosxHA3Dpb0h-0" vertex="1">
+        <mxCell id="T8NvaS6WOosxHA3Dpb0h-1" value="SensorEventQueue" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="T8NvaS6WOosxHA3Dpb0h-0" vertex="1">
           <mxGeometry y="26" width="190" height="26" as="geometry"/>
         </mxCell>
         <mxCell id="T8NvaS6WOosxHA3Dpb0h-2" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" parent="T8NvaS6WOosxHA3Dpb0h-0" vertex="1">
@@ -1932,7 +1932,7 @@
           <mxGeometry y="60" width="190" height="120" as="geometry"/>
         </mxCell>
         <mxCell id="Fw74VFVjBja6KI2S2VBc-0" value="SensorEventQueue" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="Fd-rBDubx2H-appdCB_T-1">
-          <mxGeometry x="360" y="740" width="160" height="140" as="geometry">
+          <mxGeometry x="360" y="418" width="160" height="140" as="geometry">
             <mxRectangle x="360" y="160" width="140" height="26" as="alternateBounds"/>
           </mxGeometry>
         </mxCell>
@@ -1982,7 +1982,7 @@
           <mxGeometry y="60" width="280" height="26" as="geometry"/>
         </mxCell>
         <mxCell id="Fw74VFVjBja6KI2S2VBc-19" value="Receiver" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="Fd-rBDubx2H-appdCB_T-1">
-          <mxGeometry x="583" y="79" width="350" height="258" as="geometry"/>
+          <mxGeometry x="583" y="386" width="350" height="258" as="geometry"/>
         </mxCell>
         <mxCell id="Fw74VFVjBja6KI2S2VBc-20" value="mSensorQueue   //SensorEventQueue&#xa;mMessageQueue //当前looper的messageQueue&#xa;mReceiverWeakGlobal  //接收消息的SensorEventQueue对象&#xa;mFloatScratch  //sensor数据&#xa;mIntScratch  //sensor数据" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="Fw74VFVjBja6KI2S2VBc-19">
           <mxGeometry y="26" width="350" height="84" as="geometry"/>
@@ -2100,7 +2100,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="Fw74VFVjBja6KI2S2VBc-50" value="Looper.cpp" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="Fd-rBDubx2H-appdCB_T-1">
-          <mxGeometry x="618" y="410" width="280" height="148" as="geometry"/>
+          <mxGeometry x="618" y="736" width="280" height="148" as="geometry"/>
         </mxCell>
         <mxCell id="Fw74VFVjBja6KI2S2VBc-51" value="request&#xa;mResponses&#xa;mWakeEventFd" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="Fw74VFVjBja6KI2S2VBc-50">
           <mxGeometry y="26" width="280" height="54" as="geometry"/>
@@ -2108,7 +2108,7 @@
         <mxCell id="Fw74VFVjBja6KI2S2VBc-52" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="Fw74VFVjBja6KI2S2VBc-50">
           <mxGeometry y="80" width="280" height="8" as="geometry"/>
         </mxCell>
-        <mxCell id="Fw74VFVjBja6KI2S2VBc-53" value="addFd&#xa;pollInner" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="Fw74VFVjBja6KI2S2VBc-50">
+        <mxCell id="Fw74VFVjBja6KI2S2VBc-53" value="addFd&#xa;pollInner&#xa;handleEvent" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="Fw74VFVjBja6KI2S2VBc-50">
           <mxGeometry y="88" width="280" height="60" as="geometry"/>
         </mxCell>
         <mxCell id="Fw74VFVjBja6KI2S2VBc-54" value="Use" style="endArrow=open;endSize=12;dashed=1;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1.007;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="Fd-rBDubx2H-appdCB_T-1" source="Fw74VFVjBja6KI2S2VBc-22" target="Fw74VFVjBja6KI2S2VBc-50">
@@ -2133,7 +2133,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="HIKgQn3wphQ97zNrARcz-22" value="LooperCallback::onFirstRef();&lt;br&gt;mMessageQueue-&amp;gt;getLooper()-&amp;gt;addFd(mSensorQueue-&amp;gt;getFd(), 0,&lt;br&gt;ALOOPER_EVENT_INPUT, this, mSensorQueue.get());&lt;br&gt;&lt;br&gt;int epollResult = epoll_ctl(mEpollFd.get(), EPOLL_CTL_ADD, fd, &amp;amp;eventItem);&lt;br&gt;addfd的时候会让epoll去监听这个节点&lt;br&gt;&lt;br&gt;this是&lt;a href=&quot;http://opengrok.pt.xiaomi.com/opengrok2/s?refs=handleEvent&amp;amp;project=miui-q-cepheus-dev&quot; class=&quot;xf&quot; style=&quot;color: rgb(0 , 0 , 255) ; font-weight: bold&quot;&gt;handleEvent&lt;/a&gt;&lt;span&gt;回调方法&lt;/span&gt;&lt;br&gt;&lt;br&gt;mSensorQueue和mMessageQueue关联&lt;br&gt;&lt;br&gt;addFd会把this添加到mResponses中" style="text;html=1;" vertex="1" parent="Fd-rBDubx2H-appdCB_T-1">
-          <mxGeometry x="163" y="230" width="420" height="120" as="geometry"/>
+          <mxGeometry x="490" y="180" width="420" height="200" as="geometry"/>
         </mxCell>
         <mxCell id="HIKgQn3wphQ97zNrARcz-23" value="创建Queue" style="text;html=1;" vertex="1" parent="Fd-rBDubx2H-appdCB_T-1">
           <mxGeometry x="810" y="-210" width="60" height="30" as="geometry"/>
@@ -2142,20 +2142,6 @@
           <mxGeometry width="160" relative="1" as="geometry">
             <mxPoint x="1190.2799999999997" y="389.8879999999999" as="sourcePoint"/>
             <mxPoint x="1190" y="482" as="targetPoint"/>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="MXej4CbxGqx_EOB3Auxd-3" value="" style="edgeStyle=elbowEdgeStyle;elbow=vertical;endArrow=classic;html=1;shadow=0;dashed=1;strokeColor=#330000;exitX=0.498;exitY=0.974;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1.017;entryY=0.352;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="Fd-rBDubx2H-appdCB_T-1" source="Fw74VFVjBja6KI2S2VBc-42" target="Fw74VFVjBja6KI2S2VBc-3">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="1170" y="780" as="sourcePoint"/>
-            <mxPoint x="810" y="830" as="targetPoint"/>
-            <Array as="points">
-              <mxPoint x="850" y="828"/>
-              <mxPoint x="990" y="830"/>
-              <mxPoint x="680" y="770"/>
-              <mxPoint x="990" y="770"/>
-              <mxPoint x="1000" y="800"/>
-              <mxPoint x="1190" y="760"/>
-            </Array>
           </mxGeometry>
         </mxCell>
       </root>
