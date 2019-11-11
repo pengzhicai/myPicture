@@ -1,4 +1,4 @@
-<mxfile modified="2019-11-11T06:16:28.160Z" host="www.draw.io" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36" etag="M3XWG6gXFD_DXJYGYti2" version="12.2.2" type="github" pages="9">
+<mxfile modified="2019-11-11T06:16:33.908Z" host="www.draw.io" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36" etag="YxIyenFlpYYAsCycXBKP" version="12.2.2" type="github" pages="9">
   <diagram name="framework" id="9361dd3d-8414-5efd-6122-117bd74ce7a7">
     <mxGraphModel dx="783" dy="1963" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1.5" pageWidth="826" pageHeight="1169" background="#ffffff" math="0" shadow="0">
       <root>
@@ -1946,7 +1946,7 @@
           <mxGeometry y="60" width="160" height="90" as="geometry"/>
         </mxCell>
         <mxCell id="Fw74VFVjBja6KI2S2VBc-4" value="BaseEventQueue" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="Fd-rBDubx2H-appdCB_T-1">
-          <mxGeometry x="280" y="-120" width="160" height="210" as="geometry"/>
+          <mxGeometry x="280" y="-130" width="160" height="210" as="geometry"/>
         </mxCell>
         <mxCell id="Fw74VFVjBja6KI2S2VBc-5" value="+ field: type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="Fw74VFVjBja6KI2S2VBc-4">
           <mxGeometry y="26" width="160" height="26" as="geometry"/>
