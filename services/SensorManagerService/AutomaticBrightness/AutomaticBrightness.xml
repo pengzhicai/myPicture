@@ -1,4 +1,4 @@
-<mxfile modified="2019-11-11T06:05:49.305Z" host="www.draw.io" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36" etag="QuBIlGffuJDq9hcsW8QU" version="12.2.2" type="github" pages="9">
+<mxfile modified="2019-11-11T06:07:27.916Z" host="www.draw.io" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36" etag="EVcRDof1X6QyGs0__iZ3" version="12.2.2" type="github" pages="9">
   <diagram name="framework" id="9361dd3d-8414-5efd-6122-117bd74ce7a7">
     <mxGraphModel dx="783" dy="1963" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1.5" pageWidth="826" pageHeight="1169" background="#ffffff" math="0" shadow="0">
       <root>
@@ -2132,17 +2132,6 @@
             <mxPoint x="1100" y="350" as="targetPoint"/>
           </mxGeometry>
         </mxCell>
-        <mxCell id="HIKgQn3wphQ97zNrARcz-21" value="" style="edgeStyle=segmentEdgeStyle;endArrow=classic;html=1;shadow=0;dashed=1;strokeColor=#330000;exitX=0.441;exitY=1.038;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.125;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="Fd-rBDubx2H-appdCB_T-1" source="Fw74VFVjBja6KI2S2VBc-42" target="Fw74VFVjBja6KI2S2VBc-3">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="1210" y="630" as="sourcePoint"/>
-            <mxPoint x="1260" y="580" as="targetPoint"/>
-            <Array as="points">
-              <mxPoint x="1164" y="590"/>
-              <mxPoint x="1164" y="670"/>
-              <mxPoint x="1164" y="810"/>
-            </Array>
-          </mxGeometry>
-        </mxCell>
         <mxCell id="HIKgQn3wphQ97zNrARcz-22" value="LooperCallback::onFirstRef();&lt;br&gt;mMessageQueue-&amp;gt;getLooper()-&amp;gt;addFd(mSensorQueue-&amp;gt;getFd(), 0,&lt;br&gt;ALOOPER_EVENT_INPUT, this, mSensorQueue.get());&lt;br&gt;&lt;br&gt;int epollResult = epoll_ctl(mEpollFd.get(), EPOLL_CTL_ADD, fd, &amp;amp;eventItem);&lt;br&gt;addfd的时候会让epoll去监听这个节点&lt;br&gt;&lt;br&gt;this是&lt;a href=&quot;http://opengrok.pt.xiaomi.com/opengrok2/s?refs=handleEvent&amp;amp;project=miui-q-cepheus-dev&quot; class=&quot;xf&quot; style=&quot;color: rgb(0 , 0 , 255) ; font-weight: bold&quot;&gt;handleEvent&lt;/a&gt;&lt;span&gt;回调方法&lt;/span&gt;&lt;br&gt;&lt;br&gt;mSensorQueue和mMessageQueue关联&lt;br&gt;&lt;br&gt;addFd会把this添加到mResponses中" style="text;html=1;" vertex="1" parent="Fd-rBDubx2H-appdCB_T-1">
           <mxGeometry x="163" y="230" width="420" height="120" as="geometry"/>
         </mxCell>
@@ -2153,6 +2142,20 @@
           <mxGeometry width="160" relative="1" as="geometry">
             <mxPoint x="1190.2799999999997" y="389.8879999999999" as="sourcePoint"/>
             <mxPoint x="1190" y="482" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MXej4CbxGqx_EOB3Auxd-3" value="" style="edgeStyle=elbowEdgeStyle;elbow=vertical;endArrow=classic;html=1;shadow=0;dashed=1;strokeColor=#330000;exitX=0.498;exitY=0.974;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1.017;entryY=0.352;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="Fd-rBDubx2H-appdCB_T-1" source="Fw74VFVjBja6KI2S2VBc-42" target="Fw74VFVjBja6KI2S2VBc-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1170" y="780" as="sourcePoint"/>
+            <mxPoint x="810" y="830" as="targetPoint"/>
+            <Array as="points">
+              <mxPoint x="850" y="828"/>
+              <mxPoint x="990" y="830"/>
+              <mxPoint x="680" y="770"/>
+              <mxPoint x="990" y="770"/>
+              <mxPoint x="1000" y="800"/>
+              <mxPoint x="1190" y="760"/>
+            </Array>
           </mxGeometry>
         </mxCell>
       </root>
