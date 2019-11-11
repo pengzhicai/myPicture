@@ -1,4 +1,4 @@
-<mxfile modified="2019-11-11T07:06:56.048Z" host="www.draw.io" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36" etag="wlCF6tplBtV9K52fcSvc" version="12.2.2" type="github" pages="9">
+<mxfile modified="2019-11-11T07:08:01.605Z" host="www.draw.io" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36" etag="Gz9oqeQ9K_BPWOe-0xq4" version="12.2.2" type="github" pages="9">
   <diagram name="framework" id="9361dd3d-8414-5efd-6122-117bd74ce7a7">
     <mxGraphModel dx="783" dy="1963" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1.5" pageWidth="826" pageHeight="1169" background="#ffffff" math="0" shadow="0">
       <root>
@@ -1821,7 +1821,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="PdzAj4W3mk5NjAco9bz2" name="sensorpoll">
-    <mxGraphModel dx="1826" dy="539" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2193" dy="763" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="EDzhuJa7TBaPI3O_UCcc-0"/>
         <mxCell id="EDzhuJa7TBaPI3O_UCcc-1" parent="EDzhuJa7TBaPI3O_UCcc-0"/>
@@ -1883,7 +1883,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="LoBRmVP452_K7gkUZCt8" name="pollè°ç¨æµç¨">
-    <mxGraphModel dx="1826" dy="539" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2193" dy="763" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="QmIsexg4ERlGOZRD6Asr-0"/>
         <mxCell id="QmIsexg4ERlGOZRD6Asr-1" parent="QmIsexg4ERlGOZRD6Asr-0"/>
@@ -1970,7 +1970,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="Fw74VFVjBja6KI2S2VBc-15" value="android_hardware_SensorManager.cpp" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="Fd-rBDubx2H-appdCB_T-1">
-          <mxGeometry x="583" y="-80" width="350" height="86" as="geometry"/>
+          <mxGeometry x="583" y="-80" width="350" height="120" as="geometry"/>
         </mxCell>
         <mxCell id="Fw74VFVjBja6KI2S2VBc-16" value="Receiver" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="Fw74VFVjBja6KI2S2VBc-15">
           <mxGeometry y="26" width="350" height="26" as="geometry"/>
@@ -1978,8 +1978,8 @@
         <mxCell id="Fw74VFVjBja6KI2S2VBc-17" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="Fw74VFVjBja6KI2S2VBc-15">
           <mxGeometry y="52" width="350" height="8" as="geometry"/>
         </mxCell>
-        <mxCell id="Fw74VFVjBja6KI2S2VBc-18" value="nativeInitSensorEventQueue" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="Fw74VFVjBja6KI2S2VBc-15">
-          <mxGeometry y="60" width="350" height="26" as="geometry"/>
+        <mxCell id="Fw74VFVjBja6KI2S2VBc-18" value="nativeInitSensorEventQueue&#xa;nativeEnableSensor&#xa;nativeDisableSensor" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="Fw74VFVjBja6KI2S2VBc-15">
+          <mxGeometry y="60" width="350" height="60" as="geometry"/>
         </mxCell>
         <mxCell id="Fw74VFVjBja6KI2S2VBc-19" value="Receiver" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="Fd-rBDubx2H-appdCB_T-1">
           <mxGeometry x="583" y="386" width="350" height="258" as="geometry"/>
@@ -1997,6 +1997,9 @@
           <mxGeometry x="-1" y="3" relative="1" as="geometry">
             <mxPoint x="760" y="-17" as="sourcePoint"/>
             <mxPoint x="760" y="60" as="targetPoint"/>
+            <Array as="points">
+              <mxPoint x="758" y="42"/>
+            </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="Fw74VFVjBja6KI2S2VBc-24" value="Use" style="endArrow=open;endSize=12;dashed=1;html=1;exitX=1;exitY=0.233;exitDx=0;exitDy=0;entryX=0.004;entryY=0.769;entryDx=0;entryDy=0;exitPerimeter=0;entryPerimeter=0;" edge="1" parent="Fd-rBDubx2H-appdCB_T-1" source="Fw74VFVjBja6KI2S2VBc-7" target="Fw74VFVjBja6KI2S2VBc-16">
