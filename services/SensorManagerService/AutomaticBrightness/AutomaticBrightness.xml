@@ -1,4 +1,4 @@
-<mxfile modified="2019-11-11T13:25:50.955Z" host="www.draw.io" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36" etag="wyKkNhladrkL_JHSV-sC" version="12.2.3" type="github" pages="9">
+<mxfile modified="2019-11-11T13:26:45.771Z" host="www.draw.io" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36" etag="2JmDEmXObi4LwA0AJZPV" version="12.2.3" type="github" pages="9">
   <diagram name="framework" id="9361dd3d-8414-5efd-6122-117bd74ce7a7">
     <mxGraphModel dx="176" dy="1788" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1.5" pageWidth="826" pageHeight="1169" background="#ffffff" math="0" shadow="0">
       <root>
@@ -2130,9 +2130,6 @@
             <mxPoint x="1100" y="350" as="targetPoint"/>
           </mxGeometry>
         </mxCell>
-        <mxCell id="HIKgQn3wphQ97zNrARcz-22" value="mMessageQueue-&amp;gt;getLooper()-&amp;gt;addFd(mSensorQueue-&amp;gt;getFd(), 0,&lt;br&gt;ALOOPER_EVENT_INPUT, this, mSensorQueue.get());&lt;br&gt;&lt;br&gt;this是&lt;a href=&quot;http://opengrok.pt.xiaomi.com/opengrok2/s?refs=handleEvent&amp;amp;project=miui-q-cepheus-dev&quot; class=&quot;xf&quot; style=&quot;color: rgb(0 , 0 , 255) ; font-weight: bold&quot;&gt;handleEvent&lt;/a&gt;回调方法&lt;br&gt;&lt;br&gt;int epollResult = epoll_ctl(mEpollFd.get(), EPOLL_CTL_ADD, fd, &amp;amp;eventItem);&lt;br&gt;addfd的时候会让epoll去监听这个节点&lt;br&gt;&lt;br&gt;&lt;br&gt;mSensorQueue和mMessageQueue关联&lt;br&gt;&lt;br&gt;addFd会把this添加到mResponses中" style="text;html=1;" parent="Fd-rBDubx2H-appdCB_T-1" vertex="1">
-          <mxGeometry x="190" y="470" width="420" height="200" as="geometry"/>
-        </mxCell>
         <mxCell id="HIKgQn3wphQ97zNrARcz-23" value="创建Queue" style="text;html=1;" parent="Fd-rBDubx2H-appdCB_T-1" vertex="1">
           <mxGeometry x="1050" y="-119" width="60" height="30" as="geometry"/>
         </mxCell>
@@ -2193,6 +2190,9 @@
           <mxGeometry x="0.1877" y="-1" relative="1" as="geometry">
             <mxPoint as="offset"/>
           </mxGeometry>
+        </mxCell>
+        <mxCell id="HIKgQn3wphQ97zNrARcz-22" value="mMessageQueue-&amp;gt;getLooper()-&amp;gt;addFd(mSensorQueue-&amp;gt;getFd(), 0,&lt;br&gt;ALOOPER_EVENT_INPUT, this, mSensorQueue.get());&lt;br&gt;this是&lt;a href=&quot;http://opengrok.pt.xiaomi.com/opengrok2/s?refs=handleEvent&amp;amp;project=miui-q-cepheus-dev&quot; class=&quot;xf&quot; style=&quot;color: rgb(0 , 0 , 255) ; font-weight: bold&quot;&gt;handleEvent&lt;/a&gt;回调方法&lt;br&gt;int epollResult = epoll_ctl(mEpollFd.get(), EPOLL_CTL_ADD, fd, &amp;amp;eventItem);&lt;br&gt;addfd的时候会让epoll去监听这个节点&lt;br&gt;mSensorQueue和mMessageQueue关联&lt;br&gt;addFd会把this添加到mResponses中" style="text;html=1;" parent="Fd-rBDubx2H-appdCB_T-1" vertex="1">
+          <mxGeometry x="440" y="33" width="350" height="200" as="geometry"/>
         </mxCell>
       </root>
     </mxGraphModel>
