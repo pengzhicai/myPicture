@@ -1,4 +1,4 @@
-<mxfile modified="2019-11-11T07:26:05.955Z" host="www.draw.io" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36" etag="9w_Nqg73Z3a75mA5MATd" version="12.2.3" type="github" pages="9">
+<mxfile modified="2019-11-11T07:26:25.105Z" host="www.draw.io" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36" etag="uaV4Mir9YMBeSoXiPBJl" version="12.2.3" type="github" pages="9">
   <diagram name="framework" id="9361dd3d-8414-5efd-6122-117bd74ce7a7">
     <mxGraphModel dx="176" dy="1788" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1.5" pageWidth="826" pageHeight="1169" background="#ffffff" math="0" shadow="0">
       <root>
@@ -2121,7 +2121,7 @@
             <mxPoint x="490" y="500" as="targetPoint"/>
           </mxGeometry>
         </mxCell>
-        <mxCell id="HIKgQn3wphQ97zNrARcz-0" value="通过sendEvents调用到Bitube的write，然后唤醒对端的looper去处理这次消息" style="text;html=1;" parent="Fd-rBDubx2H-appdCB_T-1" vertex="1">
+        <mxCell id="HIKgQn3wphQ97zNrARcz-0" value="通过sendEvents调用到Bitube的write方法去唤醒对端的looper去处理这次消息" style="text;html=1;" parent="Fd-rBDubx2H-appdCB_T-1" vertex="1">
           <mxGeometry x="1395" y="310" width="517" height="101" as="geometry"/>
         </mxCell>
         <mxCell id="HIKgQn3wphQ97zNrARcz-17" value="" style="endArrow=classic;startArrow=classic;html=1;shadow=1;dashed=1;strokeColor=none;rounded=0;" parent="Fd-rBDubx2H-appdCB_T-1" edge="1">
