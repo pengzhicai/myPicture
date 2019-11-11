@@ -1,4 +1,4 @@
-<mxfile modified="2019-11-11T07:39:10.433Z" host="www.draw.io" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36" etag="SC3lX4QMpYO-d8z0tOXh" version="12.2.3" type="github" pages="9">
+<mxfile modified="2019-11-11T13:19:58.604Z" host="www.draw.io" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36" etag="lNX5lLJrgQ8_lygEze45" version="12.2.3" type="github" pages="9">
   <diagram name="framework" id="9361dd3d-8414-5efd-6122-117bd74ce7a7">
     <mxGraphModel dx="176" dy="1788" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1.5" pageWidth="826" pageHeight="1169" background="#ffffff" math="0" shadow="0">
       <root>
@@ -1004,7 +1004,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="HbPeAZRye4nYh1uaOsBa" name="SensorEventQueue">
-    <mxGraphModel dx="3043" dy="2963" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2676" dy="2788" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="V-7t96RgE9TGtlcVg6ZT-0"/>
         <mxCell id="V-7t96RgE9TGtlcVg6ZT-1" parent="V-7t96RgE9TGtlcVg6ZT-0"/>
@@ -1743,7 +1743,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="jDCkWLmQqi_wdHqg0mfy" name="slpi">
-    <mxGraphModel dx="1826" dy="539" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1826" dy="588" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="dguIxrm7Jr0dmzhpTtvj-0"/>
         <mxCell id="dguIxrm7Jr0dmzhpTtvj-1" parent="dguIxrm7Jr0dmzhpTtvj-0"/>
@@ -1821,7 +1821,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="PdzAj4W3mk5NjAco9bz2" name="sensorpoll">
-    <mxGraphModel dx="2193" dy="763" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1826" dy="588" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="EDzhuJa7TBaPI3O_UCcc-0"/>
         <mxCell id="EDzhuJa7TBaPI3O_UCcc-1" parent="EDzhuJa7TBaPI3O_UCcc-0"/>
@@ -1883,7 +1883,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="LoBRmVP452_K7gkUZCt8" name="pollè°ç¨æµç¨">
-    <mxGraphModel dx="2193" dy="763" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1826" dy="588" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="QmIsexg4ERlGOZRD6Asr-0"/>
         <mxCell id="QmIsexg4ERlGOZRD6Asr-1" parent="QmIsexg4ERlGOZRD6Asr-0"/>
@@ -2122,7 +2122,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="HIKgQn3wphQ97zNrARcz-0" value="通过sendEvents调用到Bitube的write方法去唤醒对端的looper去处理这次消息" style="text;html=1;" parent="Fd-rBDubx2H-appdCB_T-1" vertex="1">
-          <mxGeometry x="1395" y="310" width="517" height="60" as="geometry"/>
+          <mxGeometry x="1390" y="300" width="517" height="60" as="geometry"/>
         </mxCell>
         <mxCell id="HIKgQn3wphQ97zNrARcz-17" value="" style="endArrow=classic;startArrow=classic;html=1;shadow=1;dashed=1;strokeColor=none;rounded=0;" parent="Fd-rBDubx2H-appdCB_T-1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -2130,7 +2130,7 @@
             <mxPoint x="1100" y="350" as="targetPoint"/>
           </mxGeometry>
         </mxCell>
-        <mxCell id="HIKgQn3wphQ97zNrARcz-22" value="LooperCallback::onFirstRef();&lt;br&gt;mMessageQueue-&amp;gt;getLooper()-&amp;gt;addFd(mSensorQueue-&amp;gt;getFd(), 0,&lt;br&gt;ALOOPER_EVENT_INPUT, this, mSensorQueue.get());&lt;br&gt;&lt;br&gt;int epollResult = epoll_ctl(mEpollFd.get(), EPOLL_CTL_ADD, fd, &amp;amp;eventItem);&lt;br&gt;addfd的时候会让epoll去监听这个节点&lt;br&gt;&lt;br&gt;this是&lt;a href=&quot;http://opengrok.pt.xiaomi.com/opengrok2/s?refs=handleEvent&amp;amp;project=miui-q-cepheus-dev&quot; class=&quot;xf&quot; style=&quot;color: rgb(0 , 0 , 255) ; font-weight: bold&quot;&gt;handleEvent&lt;/a&gt;&lt;span&gt;回调方法&lt;/span&gt;&lt;br&gt;&lt;br&gt;mSensorQueue和mMessageQueue关联&lt;br&gt;&lt;br&gt;addFd会把this添加到mResponses中" style="text;html=1;" parent="Fd-rBDubx2H-appdCB_T-1" vertex="1">
+        <mxCell id="HIKgQn3wphQ97zNrARcz-22" value="mMessageQueue-&amp;gt;getLooper()-&amp;gt;addFd(mSensorQueue-&amp;gt;getFd(), 0,&lt;br&gt;ALOOPER_EVENT_INPUT, this, mSensorQueue.get());&lt;br&gt;&lt;br&gt;this是&lt;a href=&quot;http://opengrok.pt.xiaomi.com/opengrok2/s?refs=handleEvent&amp;amp;project=miui-q-cepheus-dev&quot; class=&quot;xf&quot; style=&quot;color: rgb(0 , 0 , 255) ; font-weight: bold&quot;&gt;handleEvent&lt;/a&gt;回调方法&lt;br&gt;&lt;br&gt;int epollResult = epoll_ctl(mEpollFd.get(), EPOLL_CTL_ADD, fd, &amp;amp;eventItem);&lt;br&gt;addfd的时候会让epoll去监听这个节点&lt;br&gt;&lt;br&gt;&lt;br&gt;mSensorQueue和mMessageQueue关联&lt;br&gt;&lt;br&gt;addFd会把this添加到mResponses中" style="text;html=1;" parent="Fd-rBDubx2H-appdCB_T-1" vertex="1">
           <mxGeometry x="490" y="180" width="420" height="200" as="geometry"/>
         </mxCell>
         <mxCell id="HIKgQn3wphQ97zNrARcz-23" value="创建Queue" style="text;html=1;" parent="Fd-rBDubx2H-appdCB_T-1" vertex="1">
