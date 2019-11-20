@@ -1,4 +1,4 @@
-<mxfile modified="2019-11-20T14:11:29.149Z" host="www.draw.io" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36" etag="qKgfDVjjKf0FiB9gBtgm" version="12.2.7" type="github" pages="12">
+<mxfile modified="2019-11-20T14:11:48.868Z" host="www.draw.io" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36" etag="eVxvkZAzdE8X86ZPOuBW" version="12.2.7" type="github" pages="12">
   <diagram name="framework" id="9361dd3d-8414-5efd-6122-117bd74ce7a7">
     <mxGraphModel dx="557" dy="1986" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1.5" pageWidth="826" pageHeight="1169" background="#ffffff" math="0" shadow="0">
       <root>
@@ -2656,10 +2656,10 @@
           <mxGeometry x="260" y="900" width="120" height="60" as="geometry"/>
         </mxCell>
         <mxCell id="HI0EA7cnVskgsbdAaGq6-40" value="手动操作" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="HI0EA7cnVskgsbdAaGq6-1">
-          <mxGeometry x="-280" y="-40" width="120" height="60" as="geometry"/>
+          <mxGeometry x="-270" y="-40" width="120" height="60" as="geometry"/>
         </mxCell>
         <mxCell id="HI0EA7cnVskgsbdAaGq6-41" value="状态为：位移传感器，油压传感器是否正常，油泵是否过载" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" vertex="1" parent="HI0EA7cnVskgsbdAaGq6-1">
-          <mxGeometry x="470" y="440" width="120" height="80" as="geometry"/>
+          <mxGeometry x="370" y="330" width="120" height="80" as="geometry"/>
         </mxCell>
         <mxCell id="HI0EA7cnVskgsbdAaGq6-47" value="&lt;font style=&quot;font-size: 24px&quot;&gt;android端说明：&lt;br&gt;&lt;/font&gt;&lt;span style=&quot;text-align: center&quot;&gt;1.读取单片机参数并显示：&lt;/span&gt;读取当前单片机位移，油压参数并显示&lt;br&gt;&lt;span style=&quot;text-align: center&quot;&gt;2.设置参数：设置云平台需要的信息（根据不同平台设置值不一样），一个view或者一个activity都行，设置完在回到当前页面&lt;br&gt;3.选择运行的模板：之前配置的张拉模板（设置了梁号，孔道号，梁类型，张拉控制力，理论伸长量，终点持荷时间，中间持荷时间，理论回缩量）&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;text-align: center&quot;&gt;4.开始张拉&lt;/span&gt;&lt;span style=&quot;text-align: center&quot;&gt;显示机器状态：开始张拉，下发参数包括（四组张拉控制力，四组理论伸长量，终点持荷时间，中间持荷时间，自动张拉标志）并读取单片机状态，如果状态异常则弹出提示框（停止工作，不下发参数）&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;text-align: center&quot;&gt;5.读取数据/&lt;/span&gt;&lt;span style=&quot;text-align: center&quot;&gt;显示机器状态：实时读取单片机数据，如果机器异常则弹出提示框&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;text-align: center&quot;&gt;6.数据显示/&lt;/span&gt;&lt;span style=&quot;text-align: center&quot;&gt;上传数据到云平台/&lt;/span&gt;&lt;span style=&quot;text-align: center&quot;&gt;保存数据到数据库：显示阶段张拉数据，实时数据画出对应曲线，并保存数据到数据库&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;text-align: center&quot;&gt;7.是否完成：没有完成则继续从5开始&lt;br&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="HI0EA7cnVskgsbdAaGq6-1">
           <mxGeometry x="-280" y="1310" width="920" height="160" as="geometry"/>
