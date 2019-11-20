@@ -1,4 +1,4 @@
-<mxfile modified="2019-11-20T13:23:51.367Z" host="www.draw.io" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36" etag="53tAx9ZoJucY-v45eCmb" version="12.2.7" type="github" pages="11">
+<mxfile modified="2019-11-20T13:27:41.769Z" host="www.draw.io" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36" etag="21HpZnF77Vi7-uT_tGsv" version="12.2.7" type="github" pages="11">
   <diagram name="framework" id="9361dd3d-8414-5efd-6122-117bd74ce7a7">
     <mxGraphModel dx="557" dy="1986" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1.5" pageWidth="826" pageHeight="1169" background="#ffffff" math="0" shadow="0">
       <root>
@@ -2465,9 +2465,6 @@
         <mxCell id="0qCq_BL_Wv2OtwbQykrs-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="0qCq_BL_Wv2OtwbQykrs-1" source="0qCq_BL_Wv2OtwbQykrs-25" target="0qCq_BL_Wv2OtwbQykrs-27">
           <mxGeometry relative="1" as="geometry"/>
         </mxCell>
-        <mxCell id="0qCq_BL_Wv2OtwbQykrs-35" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="0qCq_BL_Wv2OtwbQykrs-1" source="0qCq_BL_Wv2OtwbQykrs-25" target="0qCq_BL_Wv2OtwbQykrs-34">
-          <mxGeometry relative="1" as="geometry"/>
-        </mxCell>
         <mxCell id="0qCq_BL_Wv2OtwbQykrs-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="0qCq_BL_Wv2OtwbQykrs-1" source="0qCq_BL_Wv2OtwbQykrs-25" target="0qCq_BL_Wv2OtwbQykrs-45">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
@@ -2481,14 +2478,23 @@
             <mxPoint as="offset"/>
           </mxGeometry>
         </mxCell>
+        <mxCell id="0qCq_BL_Wv2OtwbQykrs-53" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="0qCq_BL_Wv2OtwbQykrs-1" source="0qCq_BL_Wv2OtwbQykrs-25" target="0qCq_BL_Wv2OtwbQykrs-52">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
         <mxCell id="0qCq_BL_Wv2OtwbQykrs-25" value="上传实时数据" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="0qCq_BL_Wv2OtwbQykrs-1">
           <mxGeometry x="260" y="700" width="120" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="0qCq_BL_Wv2OtwbQykrs-52" value="上传实时数据" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="0qCq_BL_Wv2OtwbQykrs-1">
+          <mxGeometry x="260" y="840" width="120" height="60" as="geometry"/>
         </mxCell>
         <mxCell id="0qCq_BL_Wv2OtwbQykrs-34" value="完成" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="0qCq_BL_Wv2OtwbQykrs-1">
           <mxGeometry x="260" y="980" width="120" height="60" as="geometry"/>
         </mxCell>
         <mxCell id="0qCq_BL_Wv2OtwbQykrs-37" value="自动操作" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="0qCq_BL_Wv2OtwbQykrs-1">
           <mxGeometry x="-280" y="-40" width="120" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="0qCq_BL_Wv2OtwbQykrs-54" value="状态为：位移传感器，油压传感器是否正常，油泵是否过载" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" vertex="1" parent="0qCq_BL_Wv2OtwbQykrs-1">
+          <mxGeometry x="470" y="440" width="120" height="80" as="geometry"/>
         </mxCell>
       </root>
     </mxGraphModel>
