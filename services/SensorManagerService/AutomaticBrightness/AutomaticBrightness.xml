@@ -1,4 +1,4 @@
-<mxfile modified="2019-11-20T13:27:41.769Z" host="www.draw.io" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36" etag="21HpZnF77Vi7-uT_tGsv" version="12.2.7" type="github" pages="11">
+<mxfile modified="2019-11-20T13:39:40.478Z" host="www.draw.io" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36" etag="DtWaBOGeO8gMVwFwCFGc" version="12.2.7" type="github" pages="11">
   <diagram name="framework" id="9361dd3d-8414-5efd-6122-117bd74ce7a7">
     <mxGraphModel dx="557" dy="1986" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1.5" pageWidth="826" pageHeight="1169" background="#ffffff" math="0" shadow="0">
       <root>
@@ -2356,7 +2356,7 @@
         <mxCell id="0qCq_BL_Wv2OtwbQykrs-0"/>
         <mxCell id="0qCq_BL_Wv2OtwbQykrs-1" parent="0qCq_BL_Wv2OtwbQykrs-0"/>
         <mxCell id="0qCq_BL_Wv2OtwbQykrs-36" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="0qCq_BL_Wv2OtwbQykrs-1">
-          <mxGeometry x="-280" y="-40" width="920" height="1100" as="geometry"/>
+          <mxGeometry x="-280" y="-40" width="920" height="1340" as="geometry"/>
         </mxCell>
         <mxCell id="0qCq_BL_Wv2OtwbQykrs-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="0qCq_BL_Wv2OtwbQykrs-1" source="0qCq_BL_Wv2OtwbQykrs-2" target="0qCq_BL_Wv2OtwbQykrs-3">
           <mxGeometry relative="1" as="geometry"/>
@@ -2367,19 +2367,19 @@
         <mxCell id="0qCq_BL_Wv2OtwbQykrs-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="0qCq_BL_Wv2OtwbQykrs-1" source="0qCq_BL_Wv2OtwbQykrs-3" target="0qCq_BL_Wv2OtwbQykrs-5">
           <mxGeometry relative="1" as="geometry"/>
         </mxCell>
-        <mxCell id="0qCq_BL_Wv2OtwbQykrs-3" value="读取单片机参数并显示" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="0qCq_BL_Wv2OtwbQykrs-1">
+        <mxCell id="0qCq_BL_Wv2OtwbQykrs-3" value="1.读取单片机参数并显示" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="0qCq_BL_Wv2OtwbQykrs-1">
           <mxGeometry x="-100" y="230" width="120" height="60" as="geometry"/>
         </mxCell>
         <mxCell id="0qCq_BL_Wv2OtwbQykrs-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="0qCq_BL_Wv2OtwbQykrs-1" source="0qCq_BL_Wv2OtwbQykrs-5" target="0qCq_BL_Wv2OtwbQykrs-15">
           <mxGeometry relative="1" as="geometry"/>
         </mxCell>
-        <mxCell id="0qCq_BL_Wv2OtwbQykrs-5" value="设置参数" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="0qCq_BL_Wv2OtwbQykrs-1">
+        <mxCell id="0qCq_BL_Wv2OtwbQykrs-5" value="2.设置参数" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="0qCq_BL_Wv2OtwbQykrs-1">
           <mxGeometry x="-100" y="340" width="120" height="60" as="geometry"/>
         </mxCell>
         <mxCell id="0qCq_BL_Wv2OtwbQykrs-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="0qCq_BL_Wv2OtwbQykrs-1" source="0qCq_BL_Wv2OtwbQykrs-15" target="0qCq_BL_Wv2OtwbQykrs-17">
           <mxGeometry relative="1" as="geometry"/>
         </mxCell>
-        <mxCell id="0qCq_BL_Wv2OtwbQykrs-15" value="选择运行模板" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="0qCq_BL_Wv2OtwbQykrs-1">
+        <mxCell id="0qCq_BL_Wv2OtwbQykrs-15" value="3.选择运行模板" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="0qCq_BL_Wv2OtwbQykrs-1">
           <mxGeometry x="-100" y="450" width="120" height="60" as="geometry"/>
         </mxCell>
         <mxCell id="0qCq_BL_Wv2OtwbQykrs-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="0qCq_BL_Wv2OtwbQykrs-1" source="0qCq_BL_Wv2OtwbQykrs-17" target="0qCq_BL_Wv2OtwbQykrs-19">
@@ -2393,23 +2393,23 @@
         <mxCell id="0qCq_BL_Wv2OtwbQykrs-28" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="0qCq_BL_Wv2OtwbQykrs-1" source="0qCq_BL_Wv2OtwbQykrs-17" target="0qCq_BL_Wv2OtwbQykrs-27">
           <mxGeometry relative="1" as="geometry"/>
         </mxCell>
-        <mxCell id="0qCq_BL_Wv2OtwbQykrs-17" value="开始张拉&lt;br&gt;显示机器状态" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="0qCq_BL_Wv2OtwbQykrs-1">
+        <mxCell id="0qCq_BL_Wv2OtwbQykrs-17" value="4.开始张拉&lt;br&gt;显示机器状态" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="0qCq_BL_Wv2OtwbQykrs-1">
           <mxGeometry x="-100" y="560" width="120" height="60" as="geometry"/>
         </mxCell>
         <mxCell id="0qCq_BL_Wv2OtwbQykrs-31" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="0qCq_BL_Wv2OtwbQykrs-1" source="0qCq_BL_Wv2OtwbQykrs-27" target="0qCq_BL_Wv2OtwbQykrs-30">
           <mxGeometry relative="1" as="geometry"/>
         </mxCell>
-        <mxCell id="0qCq_BL_Wv2OtwbQykrs-27" value="读取数据" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="0qCq_BL_Wv2OtwbQykrs-1">
+        <mxCell id="0qCq_BL_Wv2OtwbQykrs-27" value="5.读取数据" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="0qCq_BL_Wv2OtwbQykrs-1">
           <mxGeometry x="-100" y="700" width="120" height="60" as="geometry"/>
         </mxCell>
-        <mxCell id="0qCq_BL_Wv2OtwbQykrs-33" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="0qCq_BL_Wv2OtwbQykrs-1" source="0qCq_BL_Wv2OtwbQykrs-30" target="0qCq_BL_Wv2OtwbQykrs-32">
+        <mxCell id="0qCq_BL_Wv2OtwbQykrs-60" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="0qCq_BL_Wv2OtwbQykrs-1" source="0qCq_BL_Wv2OtwbQykrs-30" target="0qCq_BL_Wv2OtwbQykrs-59">
           <mxGeometry relative="1" as="geometry"/>
         </mxCell>
-        <mxCell id="0qCq_BL_Wv2OtwbQykrs-30" value="数据显示" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="0qCq_BL_Wv2OtwbQykrs-1">
+        <mxCell id="0qCq_BL_Wv2OtwbQykrs-30" value="6.数据显示&lt;br&gt;上传数据到云平台&lt;br&gt;保存数据到数据库" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="0qCq_BL_Wv2OtwbQykrs-1">
           <mxGeometry x="-100" y="840" width="120" height="60" as="geometry"/>
         </mxCell>
         <mxCell id="0qCq_BL_Wv2OtwbQykrs-32" value="完成" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="0qCq_BL_Wv2OtwbQykrs-1">
-          <mxGeometry x="-100" y="980" width="120" height="60" as="geometry"/>
+          <mxGeometry x="-100" y="1120" width="120" height="60" as="geometry"/>
         </mxCell>
         <mxCell id="0qCq_BL_Wv2OtwbQykrs-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="0qCq_BL_Wv2OtwbQykrs-1" source="0qCq_BL_Wv2OtwbQykrs-7" target="0qCq_BL_Wv2OtwbQykrs-8">
           <mxGeometry relative="1" as="geometry"/>
@@ -2425,17 +2425,13 @@
             <mxPoint x="27" y="3" as="offset"/>
           </mxGeometry>
         </mxCell>
-        <mxCell id="0qCq_BL_Wv2OtwbQykrs-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="0qCq_BL_Wv2OtwbQykrs-1" source="0qCq_BL_Wv2OtwbQykrs-8" target="0qCq_BL_Wv2OtwbQykrs-13">
-          <mxGeometry relative="1" as="geometry"/>
+        <mxCell id="0qCq_BL_Wv2OtwbQykrs-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="0qCq_BL_Wv2OtwbQykrs-1" source="0qCq_BL_Wv2OtwbQykrs-8" target="0qCq_BL_Wv2OtwbQykrs-45">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="320" y="340" as="targetPoint"/>
+          </mxGeometry>
         </mxCell>
-        <mxCell id="0qCq_BL_Wv2OtwbQykrs-8" value="初始化网络，读取位移油压值" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="0qCq_BL_Wv2OtwbQykrs-1">
+        <mxCell id="0qCq_BL_Wv2OtwbQykrs-8" value="1.初始化网络，读取位移油压值" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="0qCq_BL_Wv2OtwbQykrs-1">
           <mxGeometry x="260" y="230" width="120" height="60" as="geometry"/>
-        </mxCell>
-        <mxCell id="0qCq_BL_Wv2OtwbQykrs-46" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="0qCq_BL_Wv2OtwbQykrs-1" source="0qCq_BL_Wv2OtwbQykrs-13" target="0qCq_BL_Wv2OtwbQykrs-45">
-          <mxGeometry relative="1" as="geometry"/>
-        </mxCell>
-        <mxCell id="0qCq_BL_Wv2OtwbQykrs-13" value="初始化网络，读取位移油压值" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="0qCq_BL_Wv2OtwbQykrs-1">
-          <mxGeometry x="260" y="340" width="120" height="60" as="geometry"/>
         </mxCell>
         <mxCell id="0qCq_BL_Wv2OtwbQykrs-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="0qCq_BL_Wv2OtwbQykrs-1" source="0qCq_BL_Wv2OtwbQykrs-45" target="0qCq_BL_Wv2OtwbQykrs-19">
           <mxGeometry relative="1" as="geometry"/>
@@ -2453,13 +2449,13 @@
             <mxPoint as="offset"/>
           </mxGeometry>
         </mxCell>
-        <mxCell id="0qCq_BL_Wv2OtwbQykrs-45" value="自检状态" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="0qCq_BL_Wv2OtwbQykrs-1">
+        <mxCell id="0qCq_BL_Wv2OtwbQykrs-45" value="2.自检状态" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="0qCq_BL_Wv2OtwbQykrs-1">
           <mxGeometry x="260" y="450" width="120" height="60" as="geometry"/>
         </mxCell>
         <mxCell id="0qCq_BL_Wv2OtwbQykrs-26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="0qCq_BL_Wv2OtwbQykrs-1" source="0qCq_BL_Wv2OtwbQykrs-19" target="0qCq_BL_Wv2OtwbQykrs-25">
           <mxGeometry relative="1" as="geometry"/>
         </mxCell>
-        <mxCell id="0qCq_BL_Wv2OtwbQykrs-19" value="根据参数开始张拉" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="0qCq_BL_Wv2OtwbQykrs-1">
+        <mxCell id="0qCq_BL_Wv2OtwbQykrs-19" value="3.根据参数开始张拉" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="0qCq_BL_Wv2OtwbQykrs-1">
           <mxGeometry x="260" y="560" width="120" height="60" as="geometry"/>
         </mxCell>
         <mxCell id="0qCq_BL_Wv2OtwbQykrs-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="0qCq_BL_Wv2OtwbQykrs-1" source="0qCq_BL_Wv2OtwbQykrs-25" target="0qCq_BL_Wv2OtwbQykrs-27">
@@ -2478,14 +2474,21 @@
             <mxPoint as="offset"/>
           </mxGeometry>
         </mxCell>
-        <mxCell id="0qCq_BL_Wv2OtwbQykrs-53" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="0qCq_BL_Wv2OtwbQykrs-1" source="0qCq_BL_Wv2OtwbQykrs-25" target="0qCq_BL_Wv2OtwbQykrs-52">
-          <mxGeometry relative="1" as="geometry"/>
+        <mxCell id="0qCq_BL_Wv2OtwbQykrs-53" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="0qCq_BL_Wv2OtwbQykrs-1" source="0qCq_BL_Wv2OtwbQykrs-25" target="0qCq_BL_Wv2OtwbQykrs-34">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="320" y="840" as="targetPoint"/>
+          </mxGeometry>
         </mxCell>
-        <mxCell id="0qCq_BL_Wv2OtwbQykrs-25" value="上传实时数据" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="0qCq_BL_Wv2OtwbQykrs-1">
+        <mxCell id="0qCq_BL_Wv2OtwbQykrs-25" value="4.上传实时数据" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="0qCq_BL_Wv2OtwbQykrs-1">
           <mxGeometry x="260" y="700" width="120" height="60" as="geometry"/>
         </mxCell>
-        <mxCell id="0qCq_BL_Wv2OtwbQykrs-52" value="上传实时数据" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="0qCq_BL_Wv2OtwbQykrs-1">
-          <mxGeometry x="260" y="840" width="120" height="60" as="geometry"/>
+        <mxCell id="0qCq_BL_Wv2OtwbQykrs-57" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="0qCq_BL_Wv2OtwbQykrs-1" source="0qCq_BL_Wv2OtwbQykrs-34" target="0qCq_BL_Wv2OtwbQykrs-27">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="0qCq_BL_Wv2OtwbQykrs-58" value="上报当前运行状态" style="text;html=1;resizable=0;points=[];align=center;verticalAlign=middle;labelBackgroundColor=#ffffff;" vertex="1" connectable="0" parent="0qCq_BL_Wv2OtwbQykrs-57">
+          <mxGeometry x="0.1462" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset"/>
+          </mxGeometry>
         </mxCell>
         <mxCell id="0qCq_BL_Wv2OtwbQykrs-34" value="完成" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="0qCq_BL_Wv2OtwbQykrs-1">
           <mxGeometry x="260" y="980" width="120" height="60" as="geometry"/>
@@ -2495,6 +2498,33 @@
         </mxCell>
         <mxCell id="0qCq_BL_Wv2OtwbQykrs-54" value="状态为：位移传感器，油压传感器是否正常，油泵是否过载" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" vertex="1" parent="0qCq_BL_Wv2OtwbQykrs-1">
           <mxGeometry x="470" y="440" width="120" height="80" as="geometry"/>
+        </mxCell>
+        <mxCell id="0qCq_BL_Wv2OtwbQykrs-61" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="0qCq_BL_Wv2OtwbQykrs-1" source="0qCq_BL_Wv2OtwbQykrs-59" target="0qCq_BL_Wv2OtwbQykrs-27">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-190" y="1010"/>
+              <mxPoint x="-190" y="730"/>
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0qCq_BL_Wv2OtwbQykrs-62" value="否" style="text;html=1;resizable=0;points=[];align=center;verticalAlign=middle;labelBackgroundColor=#ffffff;" vertex="1" connectable="0" parent="0qCq_BL_Wv2OtwbQykrs-61">
+          <mxGeometry x="0.1696" y="4" relative="1" as="geometry">
+            <mxPoint as="offset"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0qCq_BL_Wv2OtwbQykrs-63" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="0qCq_BL_Wv2OtwbQykrs-1" source="0qCq_BL_Wv2OtwbQykrs-59" target="0qCq_BL_Wv2OtwbQykrs-32">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="0qCq_BL_Wv2OtwbQykrs-64" value="是" style="text;html=1;resizable=0;points=[];align=center;verticalAlign=middle;labelBackgroundColor=#ffffff;" vertex="1" connectable="0" parent="0qCq_BL_Wv2OtwbQykrs-63">
+          <mxGeometry x="-0.3333" y="2" relative="1" as="geometry">
+            <mxPoint as="offset"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0qCq_BL_Wv2OtwbQykrs-59" value="7.是否完成" style="html=1;whiteSpace=wrap;aspect=fixed;shape=isoRectangle;" vertex="1" parent="0qCq_BL_Wv2OtwbQykrs-1">
+          <mxGeometry x="-100" y="974" width="120" height="72" as="geometry"/>
+        </mxCell>
+        <mxCell id="0qCq_BL_Wv2OtwbQykrs-65" value="android端说明：&lt;br&gt;&lt;span style=&quot;text-align: center&quot;&gt;1.读取单片机参数并显示：&lt;/span&gt;读取当前单片机位移，油压参数并显示" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="0qCq_BL_Wv2OtwbQykrs-1">
+          <mxGeometry x="-179" y="1320" width="630" height="60" as="geometry"/>
         </mxCell>
       </root>
     </mxGraphModel>
