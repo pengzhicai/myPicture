@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-04-03T08:00:21.085Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36" etag="kVdEPI3tg-K3WGCELjKJ" version="14.5.6" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2021-04-03T09:07:54.496Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36" etag="oKn9VuZHTrIFJnBrOmlD" version="14.5.6" type="github" pages="2">
   <diagram id="QIKFPCwPk9kwjYI6D0Sr" name="异常情况">
-    <mxGraphModel dx="2335" dy="977" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2335" dy="928" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -80,9 +80,6 @@
         <mxCell id="CfLcIA9imTJJ9SfI8Da1-57" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;labelBackgroundColor=#FFFFFF;fontStyle=0;" vertex="1" parent="CfLcIA9imTJJ9SfI8Da1-9">
           <mxGeometry x="45" y="370" width="10" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="CfLcIA9imTJJ9SfI8Da1-93" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;labelBackgroundColor=#FFFFFF;" vertex="1" parent="CfLcIA9imTJJ9SfI8Da1-9">
-          <mxGeometry x="45" y="880" width="10" height="40" as="geometry" />
-        </mxCell>
         <mxCell id="CfLcIA9imTJJ9SfI8Da1-99" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;labelBackgroundColor=#FFFFFF;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="CfLcIA9imTJJ9SfI8Da1-9">
           <mxGeometry x="45" y="710" width="10" height="120" as="geometry" />
         </mxCell>
@@ -108,6 +105,9 @@
         <mxCell id="0xxrBs9D5jNV1Znsbzkc-26" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;labelBackgroundColor=#FFFFFF;fontStyle=0;" vertex="1" parent="CfLcIA9imTJJ9SfI8Da1-9">
           <mxGeometry x="45" y="440" width="10" height="40" as="geometry" />
         </mxCell>
+        <mxCell id="24s7b-rQxSc8TIemvdxy-4" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;labelBackgroundColor=#FFFFFF;" vertex="1" parent="CfLcIA9imTJJ9SfI8Da1-9">
+          <mxGeometry x="45" y="1030" width="10" height="40" as="geometry" />
+        </mxCell>
         <mxCell id="CfLcIA9imTJJ9SfI8Da1-10" value="com.android.settings" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;labelBackgroundColor=#FFFFFF;fontStyle=0;" vertex="1" parent="1">
           <mxGeometry x="950" y="390" width="140" height="1570" as="geometry" />
         </mxCell>
@@ -124,6 +124,9 @@
               <mxPoint x="95" y="860" />
             </Array>
           </mxGeometry>
+        </mxCell>
+        <mxCell id="24s7b-rQxSc8TIemvdxy-3" value="finish" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=#FFFFFF;fontColor=#000000;" vertex="1" parent="CfLcIA9imTJJ9SfI8Da1-10">
+          <mxGeometry x="90" y="890" width="40" height="20" as="geometry" />
         </mxCell>
         <mxCell id="CfLcIA9imTJJ9SfI8Da1-31" value="&lt;div&gt;TvInputManagerService&lt;br&gt;              &lt;/div&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;labelBackgroundColor=#FFFFFF;fontStyle=0;" vertex="1" parent="1">
           <mxGeometry x="20" y="390" width="130" height="1570" as="geometry" />
@@ -262,14 +265,6 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="CfLcIA9imTJJ9SfI8Da1-94" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=#FFFFFF;" edge="1" parent="1" source="CfLcIA9imTJJ9SfI8Da1-91" target="CfLcIA9imTJJ9SfI8Da1-93">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="CfLcIA9imTJJ9SfI8Da1-95" value="start TvActivity" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=#FFFFFF;" vertex="1" connectable="0" parent="CfLcIA9imTJJ9SfI8Da1-94">
-          <mxGeometry x="-0.219" y="4" relative="1" as="geometry">
-            <mxPoint x="-13" y="-4" as="offset" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="CfLcIA9imTJJ9SfI8Da1-106" value="Hide Live TV" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=#FFFFFF;" vertex="1" parent="1">
           <mxGeometry x="830" y="1165" width="90" height="20" as="geometry" />
         </mxCell>
@@ -330,6 +325,31 @@
         <mxCell id="0xxrBs9D5jNV1Znsbzkc-29" value="&lt;pre style=&quot;font-size: 9pt; font-family: &amp;quot;dejavu sans mono&amp;quot;;&quot;&gt;&lt;span style=&quot;font-family: &amp;quot;dejavu sans mono&amp;quot; ; font-size: 9pt&quot;&gt;AudioEffectsService&lt;/span&gt; &lt;/pre&gt;&lt;pre style=&quot;font-size: 9pt; font-family: &amp;quot;dejavu sans mono&amp;quot;;&quot;&gt;wait &lt;/pre&gt;&lt;pre style=&quot;font-size: 9pt; font-family: &amp;quot;dejavu sans mono&amp;quot;;&quot;&gt;&lt;pre style=&quot;font-family: &amp;quot;dejavu sans mono&amp;quot; ; font-size: 9pt&quot;&gt;&lt;span style=&quot;&quot;&gt;android.media.tv&lt;/span&gt;&lt;/pre&gt;&lt;/pre&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=#FFFFFF;" vertex="1" connectable="0" parent="0xxrBs9D5jNV1Znsbzkc-27">
           <mxGeometry x="-0.7932" y="3" relative="1" as="geometry">
             <mxPoint x="27" y="-7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="24s7b-rQxSc8TIemvdxy-2" value="&lt;span style=&quot;font-size: 14px ; text-align: left&quot;&gt;setupwizard&lt;/span&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;labelBackgroundColor=#FFFFFF;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="1100" y="1110" width="100" height="560" as="geometry" />
+        </mxCell>
+        <mxCell id="24s7b-rQxSc8TIemvdxy-10" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;labelBackgroundColor=#FFFFFF;fontColor=#000000;" vertex="1" parent="24s7b-rQxSc8TIemvdxy-2">
+          <mxGeometry x="45" y="310" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="24s7b-rQxSc8TIemvdxy-11" value="start" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;labelBackgroundColor=#FFFFFF;fontColor=#000000;" edge="1" target="24s7b-rQxSc8TIemvdxy-10" parent="24s7b-rQxSc8TIemvdxy-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="90" y="310" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="90" y="310" />
+              <mxPoint x="90" y="340" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="24s7b-rQxSc8TIemvdxy-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=#FFFFFF;" edge="1" parent="1" target="24s7b-rQxSc8TIemvdxy-4" source="24s7b-rQxSc8TIemvdxy-10">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1090" y="1440" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="24s7b-rQxSc8TIemvdxy-6" value="start TvActivity" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=#FFFFFF;" vertex="1" connectable="0" parent="24s7b-rQxSc8TIemvdxy-5">
+          <mxGeometry x="-0.219" y="4" relative="1" as="geometry">
+            <mxPoint x="-13" y="-4" as="offset" />
           </mxGeometry>
         </mxCell>
       </root>
