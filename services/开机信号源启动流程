@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-04-03T07:26:48.987Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36" etag="qAiTx9T6Pvhc29W-Nym7" version="14.5.6" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2021-04-03T07:27:40.155Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36" etag="qWxlbep5vqtIvc4SyOc8" version="14.5.6" type="github" pages="2">
   <diagram id="QIKFPCwPk9kwjYI6D0Sr" name="异常情况">
     <mxGraphModel dx="2335" dy="928" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -285,9 +285,6 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="0xxrBs9D5jNV1Znsbzkc-23" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;labelBackgroundColor=#FFFFFF;fontStyle=0;" vertex="1" parent="0xxrBs9D5jNV1Znsbzkc-3">
-          <mxGeometry x="65" y="1230" width="10" height="40" as="geometry" />
-        </mxCell>
         <mxCell id="0xxrBs9D5jNV1Znsbzkc-10" value="&lt;pre style=&quot;font-family: &amp;quot;dejavu sans mono&amp;quot;; font-size: 9pt;&quot;&gt;&lt;span style=&quot;&quot;&gt;com.droidlogic&lt;/span&gt;&lt;/pre&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;labelBackgroundColor=#FFFFFF;fontStyle=0;" vertex="1" parent="1">
           <mxGeometry x="620" y="390" width="100" height="1570" as="geometry" />
         </mxCell>
@@ -305,11 +302,12 @@
         <mxCell id="0xxrBs9D5jNV1Znsbzkc-11" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;labelBackgroundColor=#FFFFFF;fontStyle=0;" vertex="1" parent="1">
           <mxGeometry x="320" y="830" width="10" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="0xxrBs9D5jNV1Znsbzkc-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=#FFFFFF;" edge="1" parent="1" source="0xxrBs9D5jNV1Znsbzkc-20" target="0xxrBs9D5jNV1Znsbzkc-23">
+        <mxCell id="0xxrBs9D5jNV1Znsbzkc-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=#FFFFFF;entryX=0.2;entryY=0.45;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="0xxrBs9D5jNV1Znsbzkc-20" target="0xxrBs9D5jNV1Znsbzkc-5">
           <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1245" y="1640" as="targetPoint" />
             <Array as="points">
               <mxPoint x="750" y="850" />
-              <mxPoint x="750" y="1640" />
+              <mxPoint x="750" y="1518" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -318,11 +316,12 @@
             <mxPoint x="-86" y="22" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="0xxrBs9D5jNV1Znsbzkc-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.45;entryDx=0;entryDy=0;entryPerimeter=0;labelBackgroundColor=#FFFFFF;" edge="1" parent="1" source="0xxrBs9D5jNV1Znsbzkc-26" target="0xxrBs9D5jNV1Znsbzkc-23">
+        <mxCell id="0xxrBs9D5jNV1Znsbzkc-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;labelBackgroundColor=#FFFFFF;" edge="1" parent="1" source="0xxrBs9D5jNV1Znsbzkc-26" target="0xxrBs9D5jNV1Znsbzkc-5">
           <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1245" y="1638" as="targetPoint" />
             <Array as="points">
               <mxPoint x="890" y="850" />
-              <mxPoint x="890" y="1638" />
+              <mxPoint x="890" y="1520" />
             </Array>
           </mxGeometry>
         </mxCell>
