@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-04-03T07:29:21.501Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36" etag="SVYJQIab84M-SouRV5r6" version="14.5.6" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2021-04-03T08:00:21.085Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36" etag="kVdEPI3tg-K3WGCELjKJ" version="14.5.6" type="github" pages="2">
   <diagram id="QIKFPCwPk9kwjYI6D0Sr" name="异常情况">
-    <mxGraphModel dx="2335" dy="928" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2335" dy="977" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -329,7 +329,7 @@
         </mxCell>
         <mxCell id="0xxrBs9D5jNV1Znsbzkc-29" value="&lt;pre style=&quot;font-size: 9pt; font-family: &amp;quot;dejavu sans mono&amp;quot;;&quot;&gt;&lt;span style=&quot;font-family: &amp;quot;dejavu sans mono&amp;quot; ; font-size: 9pt&quot;&gt;AudioEffectsService&lt;/span&gt; &lt;/pre&gt;&lt;pre style=&quot;font-size: 9pt; font-family: &amp;quot;dejavu sans mono&amp;quot;;&quot;&gt;wait &lt;/pre&gt;&lt;pre style=&quot;font-size: 9pt; font-family: &amp;quot;dejavu sans mono&amp;quot;;&quot;&gt;&lt;pre style=&quot;font-family: &amp;quot;dejavu sans mono&amp;quot; ; font-size: 9pt&quot;&gt;&lt;span style=&quot;&quot;&gt;android.media.tv&lt;/span&gt;&lt;/pre&gt;&lt;/pre&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=#FFFFFF;" vertex="1" connectable="0" parent="0xxrBs9D5jNV1Znsbzkc-27">
           <mxGeometry x="-0.7932" y="3" relative="1" as="geometry">
-            <mxPoint x="7" y="-12" as="offset" />
+            <mxPoint x="27" y="-7" as="offset" />
           </mxGeometry>
         </mxCell>
       </root>
