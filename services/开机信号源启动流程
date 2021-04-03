@@ -1,17 +1,20 @@
-<mxfile host="app.diagrams.net" modified="2021-04-03T06:32:51.780Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36" etag="VAW2dPawxUuNc5H2_S3u" version="14.5.6" type="github">
+<mxfile host="app.diagrams.net" modified="2021-04-03T06:36:06.485Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36" etag="Zmd6Kmu-D2lPS8XCEOc_" version="14.5.6" type="github">
   <diagram id="QIKFPCwPk9kwjYI6D0Sr" name="Page-1">
     <mxGraphModel dx="1485" dy="928" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="CfLcIA9imTJJ9SfI8Da1-1" value="system_server" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="130" y="240" width="120" height="60" as="geometry" />
+        <mxCell id="CfLcIA9imTJJ9SfI8Da1-7" value="system_server" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="130" y="400" width="100" height="660" as="geometry" />
         </mxCell>
-        <mxCell id="CfLcIA9imTJJ9SfI8Da1-2" value="com.droidlogic.tvinput" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="320" y="240" width="120" height="60" as="geometry" />
+        <mxCell id="CfLcIA9imTJJ9SfI8Da1-8" value="com.droidlogic.tvinput" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="330" y="400" width="130" height="690" as="geometry" />
         </mxCell>
-        <mxCell id="CfLcIA9imTJJ9SfI8Da1-3" value="&lt;font color=&quot;#ba0000&quot; face=&quot;monospace&quot;&gt;&lt;span style=&quot;font-size: 0px&quot;&gt;com.android.providers.tv&lt;/span&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="700" y="240" width="120" height="60" as="geometry" />
+        <mxCell id="CfLcIA9imTJJ9SfI8Da1-9" value="&lt;meta charset=&quot;utf-8&quot;&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: helvetica; font-size: 12px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: center; text-indent: 0px; text-transform: none; word-spacing: 0px; background-color: rgb(248, 249, 250); display: inline; float: none;&quot;&gt;com.android.tv&lt;/span&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="530" y="400" width="100" height="700" as="geometry" />
+        </mxCell>
+        <mxCell id="CfLcIA9imTJJ9SfI8Da1-10" value="com.android.providers.tv" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="710" y="400" width="140" height="720" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
