@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-04-07T06:26:15.896Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36" etag="BYivzTdJTHik4D54HeT6" version="14.5.6" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2021-04-07T06:26:21.720Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36" etag="0ZIcNPAoCyy5EBbXuwlo" version="14.5.6" type="github" pages="2">
   <diagram id="QIKFPCwPk9kwjYI6D0Sr" name="异常情况">
     <mxGraphModel dx="2335" dy="977" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -436,28 +436,6 @@
         <mxCell id="jMuyv_YZcGou_MeYBJzB-16" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;labelBackgroundColor=#FFFFFF;fontStyle=0;" vertex="1" parent="jMuyv_YZcGou_MeYBJzB-15">
           <mxGeometry x="45" y="370" width="10" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="jMuyv_YZcGou_MeYBJzB-17" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;labelBackgroundColor=#FFFFFF;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="jMuyv_YZcGou_MeYBJzB-15">
-          <mxGeometry x="45" y="710" width="10" height="120" as="geometry" />
-        </mxCell>
-        <mxCell id="jMuyv_YZcGou_MeYBJzB-18" value="&lt;div&gt;received&amp;nbsp;&lt;span&gt;ACTION_USB_DEVICE_DETACHED&lt;/span&gt;&amp;nbsp;&lt;/div&gt;" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;labelBackgroundColor=#FFFFFF;fillColor=#fff2cc;strokeColor=#d6b656;" edge="1" parent="jMuyv_YZcGou_MeYBJzB-15" target="jMuyv_YZcGou_MeYBJzB-17">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="55" y="691" as="sourcePoint" />
-            <Array as="points">
-              <mxPoint x="85" y="691" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="jMuyv_YZcGou_MeYBJzB-19" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;labelBackgroundColor=#FFFFFF;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="jMuyv_YZcGou_MeYBJzB-15">
-          <mxGeometry x="55" y="765" width="10" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="jMuyv_YZcGou_MeYBJzB-20" value="&lt;div&gt;&lt;br&gt;                handleInputCountChanged&lt;br&gt;              &lt;/div&gt;" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;labelBackgroundColor=#FFFFFF;fillColor=#fff2cc;strokeColor=#d6b656;" edge="1" parent="jMuyv_YZcGou_MeYBJzB-15" target="jMuyv_YZcGou_MeYBJzB-19">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="55" y="741" as="sourcePoint" />
-            <Array as="points">
-              <mxPoint x="85" y="741" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
         <mxCell id="jMuyv_YZcGou_MeYBJzB-21" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;labelBackgroundColor=#FFFFFF;fontStyle=0;" vertex="1" parent="jMuyv_YZcGou_MeYBJzB-15">
           <mxGeometry x="45" y="440" width="10" height="40" as="geometry" />
         </mxCell>
@@ -620,9 +598,6 @@
               <mxPoint x="340" y="930" />
             </Array>
           </mxGeometry>
-        </mxCell>
-        <mxCell id="jMuyv_YZcGou_MeYBJzB-62" value="Hide Live TV" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=#FFFFFF;" vertex="1" parent="I-mz87tELGSJ9T-m3QB_-1">
-          <mxGeometry x="830" y="1165" width="90" height="20" as="geometry" />
         </mxCell>
         <mxCell id="jMuyv_YZcGou_MeYBJzB-63" value="&lt;div style=&quot;line-height: 1.75 ; font-size: 14px ; text-align: left&quot;&gt;com.android.providers.tv&lt;/div&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;labelBackgroundColor=#FFFFFF;fontStyle=0;" vertex="1" parent="I-mz87tELGSJ9T-m3QB_-1">
           <mxGeometry x="1180" y="390" width="140" height="1570" as="geometry" />
