@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-04-11T02:24:35.151Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36" etag="o62TwQ6ZEZU2tGCTr2qz" version="14.5.8" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2021-04-11T02:31:26.728Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36" etag="dHW6Tj4kN8s7VlljcJrd" version="14.5.8" type="github" pages="3">
   <diagram id="QIKFPCwPk9kwjYI6D0Sr" name="异常情况">
     <mxGraphModel dx="2335" dy="977" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -692,7 +692,99 @@
         <mxCell id="VgGfFnwjinwiLWYs3TUu-0" />
         <mxCell id="VgGfFnwjinwiLWYs3TUu-1" parent="VgGfFnwjinwiLWYs3TUu-0" />
         <mxCell id="VgGfFnwjinwiLWYs3TUu-2" value="&lt;pre style=&quot;background-color: #2b2b2b ; color: #a9b7c6 ; font-family: &amp;#34;dejavu sans mono&amp;#34; ; font-size: 9.0pt&quot;&gt;CDevicePollCheckThread&lt;/pre&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="VgGfFnwjinwiLWYs3TUu-1">
-          <mxGeometry x="40" y="260" width="160" height="840" as="geometry" />
+          <mxGeometry x="200" y="180" width="160" height="840" as="geometry" />
+        </mxCell>
+        <mxCell id="VgGfFnwjinwiLWYs3TUu-24" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="VgGfFnwjinwiLWYs3TUu-2">
+          <mxGeometry x="76" y="170" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="VgGfFnwjinwiLWYs3TUu-25" value="&lt;pre style=&quot;background-color: #2b2b2b ; color: #a9b7c6 ; font-family: &amp;#34;dejavu sans mono&amp;#34; ; font-size: 9.0pt&quot;&gt;mVFrameSizeFile.openFile(VFRAME_MOUDLE_PATH)&lt;/pre&gt;" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" edge="1" target="VgGfFnwjinwiLWYs3TUu-24" parent="VgGfFnwjinwiLWYs3TUu-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="81" y="150" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="111" y="150" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VgGfFnwjinwiLWYs3TUu-26" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="VgGfFnwjinwiLWYs3TUu-2">
+          <mxGeometry x="75" y="320" width="10" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VgGfFnwjinwiLWYs3TUu-27" value="&lt;pre style=&quot;background-color: #2b2b2b ; color: #a9b7c6 ; font-family: &amp;#34;dejavu sans mono&amp;#34; ; font-size: 9.0pt&quot;&gt;threadLoop&lt;/pre&gt;" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" edge="1" target="VgGfFnwjinwiLWYs3TUu-26" parent="VgGfFnwjinwiLWYs3TUu-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="80" y="300" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="110" y="300" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VgGfFnwjinwiLWYs3TUu-28" value="&lt;pre style=&quot;background-color: #2b2b2b ; color: #a9b7c6 ; font-family: &amp;#34;dejavu sans mono&amp;#34; ; font-size: 9.0pt&quot;&gt;&lt;pre style=&quot;font-family: &amp;#34;dejavu sans mono&amp;#34; ; font-size: 9pt&quot;&gt;CPQControl&lt;/pre&gt;&lt;/pre&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="VgGfFnwjinwiLWYs3TUu-1">
+          <mxGeometry x="580" y="180" width="160" height="840" as="geometry" />
+        </mxCell>
+        <mxCell id="VgGfFnwjinwiLWYs3TUu-33" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="VgGfFnwjinwiLWYs3TUu-28">
+          <mxGeometry x="75" y="320" width="10" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VgGfFnwjinwiLWYs3TUu-34" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="VgGfFnwjinwiLWYs3TUu-1" source="VgGfFnwjinwiLWYs3TUu-26" target="VgGfFnwjinwiLWYs3TUu-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VgGfFnwjinwiLWYs3TUu-35" value="&lt;pre style=&quot;background-color: #2b2b2b ; color: #a9b7c6 ; font-family: &amp;#34;dejavu sans mono&amp;#34; ; font-size: 9.0pt&quot;&gt;onVframeSizeChange&lt;/pre&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="VgGfFnwjinwiLWYs3TUu-34">
+          <mxGeometry x="0.1514" y="-4" relative="1" as="geometry">
+            <mxPoint x="-28" y="-4" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VgGfFnwjinwiLWYs3TUu-36" value="&lt;pre style=&quot;background-color: #2b2b2b ; color: #a9b7c6 ; font-family: &amp;#34;dejavu sans mono&amp;#34; ; font-size: 9.0pt&quot;&gt;&lt;pre style=&quot;font-family: &amp;#34;dejavu sans mono&amp;#34; ; font-size: 9pt&quot;&gt;CPQControl&lt;/pre&gt;&lt;/pre&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="VgGfFnwjinwiLWYs3TUu-1">
+          <mxGeometry x="830" y="180" width="160" height="840" as="geometry" />
+        </mxCell>
+        <mxCell id="VgGfFnwjinwiLWYs3TUu-37" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="VgGfFnwjinwiLWYs3TUu-36">
+          <mxGeometry x="75" y="320" width="10" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VgGfFnwjinwiLWYs3TUu-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="VgGfFnwjinwiLWYs3TUu-1" source="VgGfFnwjinwiLWYs3TUu-33" target="VgGfFnwjinwiLWYs3TUu-37">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VgGfFnwjinwiLWYs3TUu-39" value="&lt;pre style=&quot;background-color: #2b2b2b ; color: #a9b7c6 ; font-family: &amp;#34;dejavu sans mono&amp;#34; ; font-size: 9.0pt&quot;&gt;onHdrInfoChange&lt;/pre&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="VgGfFnwjinwiLWYs3TUu-38">
+          <mxGeometry x="0.3167" y="-4" relative="1" as="geometry">
+            <mxPoint x="-23" y="-4" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VgGfFnwjinwiLWYs3TUu-40" value="&lt;pre style=&quot;background-color: #2b2b2b ; color: #a9b7c6 ; font-family: &amp;#34;dejavu sans mono&amp;#34; ; font-size: 9.0pt&quot;&gt;&lt;pre style=&quot;font-family: &amp;#34;dejavu sans mono&amp;#34; ; font-size: 9pt&quot;&gt;&lt;pre style=&quot;font-family: &amp;#34;dejavu sans mono&amp;#34; ; font-size: 9pt&quot;&gt;SystemControlClient&lt;/pre&gt;&lt;/pre&gt;&lt;/pre&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="VgGfFnwjinwiLWYs3TUu-1">
+          <mxGeometry x="1100" y="180" width="160" height="840" as="geometry" />
+        </mxCell>
+        <mxCell id="VgGfFnwjinwiLWYs3TUu-41" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="VgGfFnwjinwiLWYs3TUu-40">
+          <mxGeometry x="75" y="320" width="10" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VgGfFnwjinwiLWYs3TUu-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="VgGfFnwjinwiLWYs3TUu-1" source="VgGfFnwjinwiLWYs3TUu-37" target="VgGfFnwjinwiLWYs3TUu-41">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VgGfFnwjinwiLWYs3TUu-43" value="&lt;pre style=&quot;background-color: #2b2b2b ; color: #a9b7c6 ; font-family: &amp;#34;dejavu sans mono&amp;#34; ; font-size: 9.0pt&quot;&gt;notifyHdrInfoChangedCallback&lt;/pre&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="VgGfFnwjinwiLWYs3TUu-42">
+          <mxGeometry x="0.1231" y="-4" relative="1" as="geometry">
+            <mxPoint x="-11" y="-4" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VgGfFnwjinwiLWYs3TUu-44" value="&lt;pre style=&quot;background-color: #2b2b2b ; color: #a9b7c6 ; font-family: &amp;#34;dejavu sans mono&amp;#34; ; font-size: 9.0pt&quot;&gt;&lt;pre style=&quot;font-family: &amp;#34;dejavu sans mono&amp;#34; ; font-size: 9pt&quot;&gt;&lt;pre style=&quot;font-family: &amp;#34;dejavu sans mono&amp;#34; ; font-size: 9pt&quot;&gt;&lt;pre style=&quot;font-family: &amp;#34;dejavu sans mono&amp;#34; ; font-size: 9pt&quot;&gt;EventCallback&lt;/pre&gt;&lt;/pre&gt;&lt;/pre&gt;&lt;/pre&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="VgGfFnwjinwiLWYs3TUu-1">
+          <mxGeometry x="1360" y="180" width="160" height="840" as="geometry" />
+        </mxCell>
+        <mxCell id="VgGfFnwjinwiLWYs3TUu-45" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="VgGfFnwjinwiLWYs3TUu-44">
+          <mxGeometry x="75" y="320" width="10" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VgGfFnwjinwiLWYs3TUu-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="VgGfFnwjinwiLWYs3TUu-1" source="VgGfFnwjinwiLWYs3TUu-41" target="VgGfFnwjinwiLWYs3TUu-45">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VgGfFnwjinwiLWYs3TUu-47" value="&lt;pre style=&quot;background-color: #2b2b2b ; color: #a9b7c6 ; font-family: &amp;#34;dejavu sans mono&amp;#34; ; font-size: 9.0pt&quot;&gt;notifyHdrInfoChanged&lt;/pre&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="VgGfFnwjinwiLWYs3TUu-46">
+          <mxGeometry x="0.24" y="-3" relative="1" as="geometry">
+            <mxPoint x="-10" y="-3" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VgGfFnwjinwiLWYs3TUu-48" value="&lt;pre style=&quot;background-color: #2b2b2b ; color: #a9b7c6 ; font-family: &amp;#34;dejavu sans mono&amp;#34; ; font-size: 9.0pt&quot;&gt;&lt;pre style=&quot;font-family: &amp;#34;dejavu sans mono&amp;#34; ; font-size: 9pt&quot;&gt;&lt;pre style=&quot;font-family: &amp;#34;dejavu sans mono&amp;#34; ; font-size: 9pt&quot;&gt;&lt;pre style=&quot;font-family: &amp;#34;dejavu sans mono&amp;#34; ; font-size: 9pt&quot;&gt;&lt;pre style=&quot;font-family: &amp;#34;dejavu sans mono&amp;#34; ; font-size: 9pt&quot;&gt;SystemControlManager&lt;/pre&gt;&lt;/pre&gt;&lt;/pre&gt;&lt;/pre&gt;&lt;/pre&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="VgGfFnwjinwiLWYs3TUu-1">
+          <mxGeometry x="1620" y="180" width="160" height="840" as="geometry" />
+        </mxCell>
+        <mxCell id="VgGfFnwjinwiLWYs3TUu-49" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="VgGfFnwjinwiLWYs3TUu-48">
+          <mxGeometry x="75" y="320" width="10" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VgGfFnwjinwiLWYs3TUu-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="VgGfFnwjinwiLWYs3TUu-1" source="VgGfFnwjinwiLWYs3TUu-45" target="VgGfFnwjinwiLWYs3TUu-49">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VgGfFnwjinwiLWYs3TUu-51" value="&lt;pre style=&quot;background-color: #2b2b2b ; color: #a9b7c6 ; font-family: &amp;#34;dejavu sans mono&amp;#34; ; font-size: 9.0pt&quot;&gt;&lt;span style=&quot;color: #ffc66d&quot;&gt;HdrInfoChangeCallback&lt;/span&gt;&lt;/pre&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="VgGfFnwjinwiLWYs3TUu-50">
+          <mxGeometry x="0.32" y="-2" relative="1" as="geometry">
+            <mxPoint x="-30" y="-2" as="offset" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
