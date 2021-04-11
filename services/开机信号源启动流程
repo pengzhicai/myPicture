@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-04-11T02:31:26.728Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36" etag="dHW6Tj4kN8s7VlljcJrd" version="14.5.8" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2021-04-11T02:37:31.488Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36" etag="bXMDah8FsiirdHjnIuXn" version="14.5.8" type="github" pages="3">
   <diagram id="QIKFPCwPk9kwjYI6D0Sr" name="异常情况">
     <mxGraphModel dx="2335" dy="977" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -784,6 +784,34 @@
         <mxCell id="VgGfFnwjinwiLWYs3TUu-51" value="&lt;pre style=&quot;background-color: #2b2b2b ; color: #a9b7c6 ; font-family: &amp;#34;dejavu sans mono&amp;#34; ; font-size: 9.0pt&quot;&gt;&lt;span style=&quot;color: #ffc66d&quot;&gt;HdrInfoChangeCallback&lt;/span&gt;&lt;/pre&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="VgGfFnwjinwiLWYs3TUu-50">
           <mxGeometry x="0.32" y="-2" relative="1" as="geometry">
             <mxPoint x="-30" y="-2" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VgGfFnwjinwiLWYs3TUu-52" value="&lt;pre style=&quot;background-color: #2b2b2b ; color: #a9b7c6 ; font-family: &amp;#34;dejavu sans mono&amp;#34; ; font-size: 9.0pt&quot;&gt;&lt;br&gt;&lt;/pre&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="VgGfFnwjinwiLWYs3TUu-1">
+          <mxGeometry x="2170" y="270" width="160" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="VgGfFnwjinwiLWYs3TUu-53" value="&lt;pre style=&quot;background-color: #2b2b2b ; color: #a9b7c6 ; font-family: &amp;#34;dejavu sans mono&amp;#34; ; font-size: 9.0pt&quot;&gt;&lt;pre style=&quot;font-family: &amp;#34;dejavu sans mono&amp;#34; ; font-size: 9pt&quot;&gt;&lt;pre style=&quot;font-family: &amp;#34;dejavu sans mono&amp;#34; ; font-size: 9pt&quot;&gt;&lt;pre style=&quot;font-family: &amp;#34;dejavu sans mono&amp;#34; ; font-size: 9pt&quot;&gt;&lt;pre style=&quot;font-family: &amp;#34;dejavu sans mono&amp;#34; ; font-size: 9pt&quot;&gt;&lt;pre style=&quot;font-size: 9pt ; text-align: left ; font-family: &amp;#34;dejavu sans mono&amp;#34;&quot;&gt;TvInputBaseSession&lt;/pre&gt;&lt;/pre&gt;&lt;/pre&gt;&lt;/pre&gt;&lt;/pre&gt;&lt;/pre&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="VgGfFnwjinwiLWYs3TUu-1">
+          <mxGeometry x="1880" y="180" width="160" height="840" as="geometry" />
+        </mxCell>
+        <mxCell id="VgGfFnwjinwiLWYs3TUu-54" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="VgGfFnwjinwiLWYs3TUu-53">
+          <mxGeometry x="75" y="320" width="10" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="VgGfFnwjinwiLWYs3TUu-57" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="VgGfFnwjinwiLWYs3TUu-53">
+          <mxGeometry x="80" y="360" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="VgGfFnwjinwiLWYs3TUu-58" value="&lt;pre style=&quot;background-color: rgb(43 , 43 , 43) ; font-family: &amp;#34;dejavu sans mono&amp;#34; ; font-size: 9pt&quot;&gt;&lt;font color=&quot;#a9b7c6&quot;&gt;send &lt;/font&gt;&lt;span style=&quot;color: rgb(152 , 118 , 170) ; font-style: italic&quot;&gt;MSG_UPDATE_HDMI_HDR&lt;/span&gt;&lt;/pre&gt;" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" edge="1" target="VgGfFnwjinwiLWYs3TUu-57" parent="VgGfFnwjinwiLWYs3TUu-53">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="85" y="340" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="115" y="340" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VgGfFnwjinwiLWYs3TUu-55" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="VgGfFnwjinwiLWYs3TUu-1" source="VgGfFnwjinwiLWYs3TUu-49" target="VgGfFnwjinwiLWYs3TUu-54">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VgGfFnwjinwiLWYs3TUu-56" value="&lt;pre style=&quot;background-color: #2b2b2b ; color: #a9b7c6 ; font-family: &amp;#34;dejavu sans mono&amp;#34; ; font-size: 9.0pt&quot;&gt;&lt;span style=&quot;color: #ffc66d&quot;&gt;onHdrInfoChange&lt;/span&gt;&lt;/pre&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="VgGfFnwjinwiLWYs3TUu-55">
+          <mxGeometry x="0.176" y="-3" relative="1" as="geometry">
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
       </root>
