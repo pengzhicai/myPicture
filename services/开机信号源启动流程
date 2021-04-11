@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-04-11T02:21:22.160Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36" etag="aMIH2dC1_Ti2KrCzpI1U" version="14.5.8" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2021-04-11T02:24:35.151Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36" etag="o62TwQ6ZEZU2tGCTr2qz" version="14.5.8" type="github" pages="3">
   <diagram id="QIKFPCwPk9kwjYI6D0Sr" name="异常情况">
     <mxGraphModel dx="2335" dy="977" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -692,7 +692,7 @@
         <mxCell id="VgGfFnwjinwiLWYs3TUu-0" />
         <mxCell id="VgGfFnwjinwiLWYs3TUu-1" parent="VgGfFnwjinwiLWYs3TUu-0" />
         <mxCell id="VgGfFnwjinwiLWYs3TUu-2" value="&lt;pre style=&quot;background-color: #2b2b2b ; color: #a9b7c6 ; font-family: &amp;#34;dejavu sans mono&amp;#34; ; font-size: 9.0pt&quot;&gt;CDevicePollCheckThread&lt;/pre&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="VgGfFnwjinwiLWYs3TUu-1">
-          <mxGeometry x="60" y="230" width="180" height="840" as="geometry" />
+          <mxGeometry x="40" y="260" width="160" height="840" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
